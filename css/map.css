@@ -1,0 +1,11 @@
+#koreamap{
+    width:80%
+}
+.land
+			{
+				fill: #df7676;
+				fill-opacity: 1;
+				stroke:rgb(233, 174, 174);
+				stroke-opacity: 1;
+				stroke-width:0.5;
+			}
