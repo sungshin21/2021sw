@@ -18,7 +18,6 @@ font-size:18px}
 }
 
 
-
 /* 지도 관련 기본 세팅*/
 #koreamap{
     position: absolute;
@@ -41,16 +40,17 @@ font-size:18px}
 }
 
 /* 슬라이더 */
-
+#carouselExampleFade{
+    /*슬라이더 가운데 정렬 */
+    position: absolute;
+    top: 1000px;
+    left: 20%;
+}
 .carousel-inner{
-/* 슬라이더 크기 */
+    /* 슬라이더 크기 */
     width: 960px;
     height: 600px;
-    object-fit: cover;
-/*슬라이더 가운데 정렬 */
-/*display: flex;
-justify-content: center;
-align-items: center;*/
+    object-fit: fill;
 }
 
 /*object fit
