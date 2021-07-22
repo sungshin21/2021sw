@@ -14,7 +14,10 @@ font-size:18px}
     font-family: "Do Hyeon", serif;
     font-size: 30px;
     font-weight: 500;
+    
 }
+
+
 
 /* 지도 관련 기본 세팅*/
 #koreamap{
@@ -41,9 +44,9 @@ font-size:18px}
 
 .carousel-inner{
 /* 슬라이더 크기 */
-width: 960px;
-height: 600px;
-object-fit: cover;
+    width: 960px;
+    height: 600px;
+    object-fit: cover;
 /*슬라이더 가운데 정렬 */
 /*display: flex;
 justify-content: center;
@@ -69,4 +72,7 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
     height: 35px;
     fill: currentColor;
     cursor: pointer;
+}
+.justify-content-end{
+    margin-left: -300px;
 }
