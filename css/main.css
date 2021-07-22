@@ -44,13 +44,15 @@ font-size:18px}
     /*슬라이더 가운데 정렬 */
     position: absolute;
     top: 1000px;
-    left: 20%;
+    left: 50%;
+    margin-left: -480px;
 }
 .carousel-inner{
     /* 슬라이더 크기 */
     width: 960px;
     height: 600px;
     object-fit: fill;
+    border-radius: 30px;
 }
 
 /*object fit
