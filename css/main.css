@@ -58,8 +58,15 @@ none	아무것도 하지 않고 본래의 이미지 사이즈를 유지합니다
 scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사이즈를 조절합니다.*/
 
 /* 메뉴바 */
-.menu{
-    width: 30px;
-    height: 30px;
+.sidebar{
+    width: 35px;
+    height: 35px;
     fill: currentColor;
+    cursor: pointer;
+}
+.sidebar .menubar{
+    width: 35px;
+    height: 35px;
+    fill: currentColor;
+    cursor: pointer;
 }
