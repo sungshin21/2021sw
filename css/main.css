@@ -73,6 +73,8 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
     fill: currentColor;
     cursor: pointer;
 }
-.justify-content-end{
-    margin-left: -300px;
+.text-center{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
 }
