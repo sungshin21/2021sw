@@ -36,70 +36,7 @@ font-size:18px}
 .land:hover{
     fill: #000;
 }
-/* 지도 광역시 그룹화 */
-/* 경기+인천 */
-.Incheon:hover ~ .Gyeonggi{
-    fill: #000;
-}
-.Gyeonggi:hover ~ .Incheon{
-    fill: #000
-}
 
-/* 대구+경북 */
-.Daegu:hover ~ .NorthGyeongsang{
-    fill: #000;
-}
-.NorthGyeongsang:hover ~ .Daegu{
-    fill: #000
-}
-
-/* 울산+부산+경남 */
-.Ulsan:hover ~ .SouthGyeongsang{
-    fill: #000;
-}
-.SouthGyeongsang:hover ~ .Ulsan{
-    fill: #000
-}
-.Busan:hover ~ .SouthGyeongsang{
-    fill: #000;
-}
-.SouthGyeongsang:hover ~ .Busan{
-    fill: #000
-}
-.Busan:hover ~ .Ulsan{
-    fill: #000;
-}
-.Ulsan:hover ~ .Busan{
-    fill: #000
-}
-
-/* 세종+대전+충남 */
-.Sejong:hover ~ .SouthChungcheong{
-    fill: #000;
-}
-.SouthChungcheong:hover ~ .Sejong{
-    fill: #000
-}
-.Daejeon:hover ~ .SouthChungcheong{
-    fill: #000;
-}
-.SouthChungcheong:hover ~ .Daejeon{
-    fill: #000
-}
-.Daejeon:hover ~ .Sejong{
-    fill: #000;
-}
-.Sejong:hover ~ .Daejeon{
-    fill: #000
-}
-
-/* 광주+전남 */
-.Gwangju:hover ~ .SouthJeolla{
-    fill: #000;
-}
-.SouthJeolla:hover ~ .Gwangju{
-    fill: #000
-}
 /* 슬라이더 */
 
 .carousel-inner{
