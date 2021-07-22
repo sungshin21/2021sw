@@ -50,7 +50,7 @@ font-size:18px}
     /* 슬라이더 크기 */
     width: 960px;
     height: 600px;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 /*object fit
