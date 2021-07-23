@@ -1,3 +1,5 @@
+//지도
+
 //경기+인천
 //인천 선택자
 const IncheonEl=document.getElementById('KR-28')
