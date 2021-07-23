@@ -50,11 +50,15 @@ font-size:18px}
 .carousel-inner{
     /* 슬라이더 크기 */
     width: 960px;
-    height: 700px;
+    height: 500px;
     object-fit: scale-down;
     border-radius: 30px;
+    margin-bottom: 50px;
+
+    
 
 }
+
 
 /*object fit
 fill	기본값. 주어진 너비와 높이에 딱 맞도록 사이즈를 조절합니다. 이미지의 가로세로 비율은 유지되지 않아요.
@@ -63,13 +67,27 @@ cover	가로세로 비율을 유지한 채로 사이즈가 조절되며, 비율�
 none	아무것도 하지 않고 본래의 이미지 사이즈를 유지합니다. 그래도 이미지 가운데가 보여지도록 하는 센스가 있어요.
 scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사이즈를 조절합니다.*/
 
-#silder-text{
-    display: flex;
-    left: 50%;
-    margin-left: -480px;
-    text-align: center;
+.carousel-item .silder-text{
+    position: absolute;
+    top:350px;
+    left:30px;
+    /* background: blueviolet; */
+    z-index: 50;
+}
+.carousel-item p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+.carousel-item h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
 
 }
+
 
 /* 메뉴바 */
 .sidebar{
