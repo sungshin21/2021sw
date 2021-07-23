@@ -25,6 +25,7 @@ font-size:18px}
     width:400px;
     left: 50%;
     margin-left: -200px;
+    top:100px;
    
 }
 .land
@@ -43,7 +44,7 @@ font-size:18px}
 #carouselExampleFade{
     /*슬라이더 가운데 정렬 */
     position: absolute;
-    top: 1000px;
+    top: 1150px;
     left: 50%;
     margin-left: -480px;
 }
@@ -67,6 +68,7 @@ cover	가로세로 비율을 유지한 채로 사이즈가 조절되며, 비율�
 none	아무것도 하지 않고 본래의 이미지 사이즈를 유지합니다. 그래도 이미지 가운데가 보여지도록 하는 센스가 있어요.
 scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사이즈를 조절합니다.*/
 
+/* 슬라이더 텍스트 작성 */
 .carousel-item .silder-text{
     position: absolute;
     top:350px;
@@ -87,7 +89,28 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
     color: #fff;
 
 }
+/* 제목 텍스트 작성 */
+#title1{
+    position: absolute;
+    margin-top: 30px;
+    margin-left:150px;
+}
+#title2{
+    position: absolute;
+    margin-top: 900px;
+   margin-left: 150px;
+}
+#title1 p{
 
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+#title2 p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
 
 /* 메뉴바 */
 .sidebar{
