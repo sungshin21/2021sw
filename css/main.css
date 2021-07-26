@@ -136,7 +136,14 @@ label {
     font: 1rem 'Fira Sans', sans-serif;
     margin: .4rem 0;
 }
-
+/* footer */
+footer {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background: #cccccc;
+    top:1600px
+}
 /* scrolltotop 아이콘 둥둥 뜨게 할 애니메이션 작성 */
 @keyframes float {
     0% {
@@ -149,13 +156,14 @@ label {
         transform: translatey(0px);
     }
 }
-/* Scroll To Top 아이콘 배치 */
+/*Scroll To Top 아이콘 배치 */
 
 #scrollToTop {
     color: #444343;
     cursor: pointer;
     animation: float 6s ease infinite;
     font-size: 70px;
+    z-index: 5;
    
     /* 블록 속성 만들기*/
      display: inline-block; 
