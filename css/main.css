@@ -136,3 +136,32 @@ label {
     font: 1rem 'Fira Sans', sans-serif;
     margin: .4rem 0;
 }
+
+/* scrolltotop 아이콘 둥둥 뜨게 할 애니메이션 작성 */
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+/* Scroll To Top 아이콘 배치 */
+
+#scrollToTop {
+    color: #444343;
+    cursor: pointer;
+    animation: float 6s ease infinite;
+    font-size: 70px;
+   
+    /* 블록 속성 만들기*/
+     display: inline-block; 
+     position:fixed;
+     bottom:20px;
+     right:3%;
+    opacity:0;
+    transition: 0.4s;
+}
