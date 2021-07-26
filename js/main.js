@@ -160,3 +160,20 @@ SouthJeollaEl.addEventListener("mouseout", function(){
     GwangjuEl.style.fill="#CCCCCC"
     SouthJeollaEl.style.fill="#CCCCCC"
     })
+
+//글씨
+//서울
+//글씨 선택자
+const Seoultext=document.getElementById('text-seoul')
+//지도 선택자
+const Seoulmap=document.getElementById('KR-11')
+//글씨 위에 마우스 올려지면
+Seoultext.addEventListener("mouseover", function(){  
+    Seoulmap.style.fill='#000'
+    Seoultext.style.fill='#fff'
+})
+//글씨 밖으로 마우스 나가면
+Seoultext.addEventListener("mouseout", function(){
+    Seoulmap.style.fill="#CCCCCC"
+    Seoultext.style.fill='#000'
+    })

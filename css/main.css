@@ -7,7 +7,7 @@
 a{text-decoration: none;}
 
 .nav-scroller a:hover{text-decoration: underline;
-color:black;
+color:#000;
 font-size:18px}
 
 .text-center{
@@ -39,6 +39,7 @@ font-size:18px}
 .land:hover{
     fill: #000;
 }
+
 
 /* 슬라이더 */
 #carouselExampleFade{
