@@ -136,6 +136,16 @@ label {
     font: 1rem 'Fira Sans', sans-serif;
     margin: .4rem 0;
 }
+#search-box{
+    position: absolute;
+    left:860px;
+}
+/* search icon */
+#searchicon{
+    position: absolute;
+    left:1000px;
+    top:17px
+}
 /* footer */
 footer {
     position: relative;
