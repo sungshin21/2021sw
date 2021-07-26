@@ -130,3 +130,9 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
     left:50%;
     transform: translateX(-50%);
 }
+/* search-box*/
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    margin: .4rem 0;
+}
