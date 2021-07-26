@@ -41,6 +41,17 @@ label {
   font: 1rem 'Fira Sans', sans-serif;
   margin: .4rem 0;
 }
+#search-box{
+  position: absolute;
+  left:1070px;
+}
+/* search icon */
+#searchicon{
+  position: absolute;
+  left:1210px;
+  top:17px;
+}
+
 /* footer */
 footer {
   position: relative;
