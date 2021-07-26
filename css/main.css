@@ -26,7 +26,7 @@ font-size:18px}
     width:400px;
     left: 50%;
     margin-left: -200px;
-    top:100px;
+    top:130px;
    
 }
 .land{
@@ -46,7 +46,7 @@ font-size:18px}
 #carouselExampleFade{
     /*슬라이더 가운데 정렬 */
     position: absolute;
-    top: 1150px;
+    top: 1180px;
     left: 50%;
     margin-left: -480px;
 }
@@ -129,4 +129,10 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
     position:absolute;
     left:50%;
     transform: translateX(-50%);
+}
+/* search-box*/
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    margin: .4rem 0;
 }
