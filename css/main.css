@@ -134,9 +134,5 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
 label {
     display: block;
     font: 1rem 'Fira Sans', sans-serif;
-}
-
-input,
-label {
     margin: .4rem 0;
 }
