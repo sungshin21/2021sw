@@ -4,15 +4,77 @@
   height: 50px;
 }
 
-a{text-decoration: none;}
+a{text-decoration: none;
+z-index: 5;}
 
 .nav-scroller a:hover{text-decoration: underline;
-color:black;
+color:#000;
 font-size:18px}
 
 .text-center{
   font-family: "Do Hyeon", serif;
   font-size: 30px;
   font-weight: 500;
-  
+}
+
+/* 메뉴바 */
+.sidebar{
+  width: 35px;
+  height: 35px;
+  fill: currentColor;
+  cursor: pointer;
+}
+.sidebar .menubar{
+  width: 35px;
+  height: 35px;
+  fill: currentColor;
+  cursor: pointer;
+}
+.text-center{
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+/* search-box*/
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+  margin: .4rem 0;
+}
+/* footer */
+footer {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background: #cccccc;
+  top:1600px
+}
+/* scrolltotop 아이콘 둥둥 뜨게 할 애니메이션 작성 */
+@keyframes float {
+  0% {
+      transform: translatey(0px);
+  }
+  50% {
+      transform: translatey(-20px);
+  }
+  100% {
+      transform: translatey(0px);
+  }
+}
+/*Scroll To Top 아이콘 배치 */
+
+#scrollToTop {
+  color: #444343;
+  cursor: pointer;
+  animation: float 6s ease infinite;
+  font-size: 70px;
+  z-index: 5;
+ 
+  /* 블록 속성 만들기*/
+   display: inline-block; 
+   position:fixed;
+   bottom:20px;
+   right:3%;
+  opacity:0;
+  transition: 0.4s;
 }
