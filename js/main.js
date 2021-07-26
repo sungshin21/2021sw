@@ -122,7 +122,7 @@ BusanEl.addEventListener("mouseover", function(){
 //부산 밖으로 마우스 나가면
 BusanEl.addEventListener("mouseout", function(){
     UlsanEl.style.fill='#cccccc'
-    DaeguEl.style.fill='#cccccc'
+    BusanEl.style.fill='#cccccc'
     SouthGyeongsangEl.style.fill='#cccccc'
     SouthGyeongtextEl.style.fill='#000'
   })
