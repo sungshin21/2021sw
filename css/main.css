@@ -18,98 +18,6 @@ font-size:18px}
     
 }
 
-
-/* 지도 관련 기본 세팅*/
-#koreamap{
-    position: absolute;
-    height: 900px;
-    width:400px;
-    left: 50%;
-    margin-left: -200px;
-    top:130px;
-   
-}
-.land{
-    fill: #cccccc;
-    fill-opacity: 1;
-    stroke:white;
-    stroke-opacity: 1;
-    stroke-width:0.5;
-    cursor: pointer;
-}
-.land:hover{
-    fill: #000;
-}
-
-
-/* 슬라이더 */
-#carouselExampleFade{
-    /*슬라이더 가운데 정렬 */
-    position: absolute;
-    top: 1180px;
-    left: 50%;
-    margin-left: -480px;
-}
-.carousel-inner{
-    /* 슬라이더 크기 */
-    width: 960px;
-    height: 500px;
-    object-fit: scale-down;
-    border-radius: 30px;
-    margin-bottom: 50px;
-
-}
-
-/*object fit
-fill	기본값. 주어진 너비와 높이에 딱 맞도록 사이즈를 조절합니다. 이미지의 가로세로 비율은 유지되지 않아요.
-contain	가로세로 비율을 유지한 채로 사이즈가 조절되지만, 이미지와 컨테이너 간의 비율이 맞지 않는 경우엔 자리가 남게 됩니다.
-cover	가로세로 비율을 유지한 채로 사이즈가 조절되며, 비율이 맞지 않더라도 이미지를 확대해 컨테이너를 완전히 채웁니다.
-none	아무것도 하지 않고 본래의 이미지 사이즈를 유지합니다. 그래도 이미지 가운데가 보여지도록 하는 센스가 있어요.
-scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사이즈를 조절합니다.*/
-
-/* 슬라이더 텍스트 작성 */
-.carousel-item .silder-text{
-    position: absolute;
-    top:350px;
-    left:30px;
-    /* background: blueviolet; */
-    z-index: 50;
-}
-.carousel-item p{
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 30px;
-    color: #fff;
-    font-weight: 400;
-}
-.carousel-item h1{
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    color: #fff;
-
-}
-/* 제목 텍스트 작성 */
-#title1{
-    position: absolute;
-    margin-top: 30px;
-    margin-left:150px;
-}
-#title2{
-    position: absolute;
-    margin-top: 900px;
-   margin-left: 150px;
-}
-#title1 p{
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-}
-#title2 p{
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-}
-
 /* 메뉴바 */
 .sidebar{
     width: 35px;
@@ -139,6 +47,7 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
     left:1210px;
     top:17px;
 }
+
 
 /* 내위치 */
 .toggle {
@@ -210,6 +119,97 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
     -ms-transform: translateX(15px);
     transform: translateX(15px);
 }
+
+/* 지도 관련 기본 세팅*/
+#koreamap{
+    position: absolute;
+    height: 900px;
+    width:400px;
+    left: 50%;
+    margin-left: -200px;
+    top:130px;
+   
+}
+.land{
+    fill: #cccccc;
+    fill-opacity: 1;
+    stroke:white;
+    stroke-opacity: 1;
+    stroke-width:0.5;
+    cursor: pointer;
+}
+.land:hover{
+    fill: #000;
+}
+
+/* 슬라이더 */
+#carouselExampleFade{
+    /*슬라이더 가운데 정렬 */
+    position: absolute;
+    top: 1180px;
+    left: 50%;
+    margin-left: -480px;
+}
+.carousel-inner{
+    /* 슬라이더 크기 */
+    width: 960px;
+    height: 500px;
+    object-fit: scale-down;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+/*object fit
+fill	기본값. 주어진 너비와 높이에 딱 맞도록 사이즈를 조절합니다. 이미지의 가로세로 비율은 유지되지 않아요.
+contain	가로세로 비율을 유지한 채로 사이즈가 조절되지만, 이미지와 컨테이너 간의 비율이 맞지 않는 경우엔 자리가 남게 됩니다.
+cover	가로세로 비율을 유지한 채로 사이즈가 조절되며, 비율이 맞지 않더라도 이미지를 확대해 컨테이너를 완전히 채웁니다.
+none	아무것도 하지 않고 본래의 이미지 사이즈를 유지합니다. 그래도 이미지 가운데가 보여지도록 하는 센스가 있어요.
+scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사이즈를 조절합니다.*/
+
+/* 슬라이더 텍스트 작성 */
+.carousel-item .silder-text{
+    position: absolute;
+    top:350px;
+    left:30px;
+    /* background: blueviolet; */
+    z-index: 50;
+}
+.carousel-item p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+.carousel-item h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+
+}
+/* 제목 텍스트 작성 */
+#title1{
+    position: absolute;
+    margin-top: 30px;
+    margin-left:150px;
+}
+#title2{
+    position: absolute;
+    margin-top: 900px;
+   margin-left: 150px;
+}
+#title1 p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+#title2 p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
 
 /* footer */
 footer {
