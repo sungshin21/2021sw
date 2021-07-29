@@ -39,13 +39,13 @@ font-size:18px}
 /* search-box*/
 #search-box{
     position: absolute;
-    left:1070px;
+    margin-right:160px;
 }
 /* search icon */
 #searchicon{
     position: absolute;
     left:1210px;
-    top:17px;
+    margin-right:150px;
 }
 
 
