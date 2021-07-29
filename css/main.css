@@ -60,7 +60,6 @@ font-size:18px}
 
 }
 
-
 /*object fit
 fill	기본값. 주어진 너비와 높이에 딱 맞도록 사이즈를 조절합니다. 이미지의 가로세로 비율은 유지되지 않아요.
 contain	가로세로 비율을 유지한 채로 사이즈가 조절되지만, 이미지와 컨테이너 간의 비율이 맞지 않는 경우엔 자리가 남게 됩니다.
@@ -101,7 +100,6 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
    margin-left: 150px;
 }
 #title1 p{
-
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -131,11 +129,6 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
     transform: translateX(-50%);
 }
 /* search-box*/
-label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
-    margin: .4rem 0;
-}
 #search-box{
     position: absolute;
     left:1070px;
@@ -204,22 +197,16 @@ label {
     font-size:0;
     text-indent: -9999px;
 }
+
 .slider .on{display:none;}
 .slider .off{display:block;}
 .slider.on .on{display:block;}
 .slider.on .off{display:none;}
-
-
-
-.tog_wrap input:checked + .slider, .tog_wrap .slider.on {
-    background: #13294b;
-}
-.tog_wrap input:focus + .slider {
-    /*box-shadow: 0 0 1px #13294b;*/
-    outline:2px solid #000;
-}
-.tog_wrap input:checked + .slider:before,.tog_wrap .slider.on:before {
-    -webkit-transform: translateX(15px)0;
+.tog_wrap input:checked + .slider, .tog_wrap .slider.on {background: #13294b;}
+.tog_wrap input:focus + .slider {/*box-shadow: 0 0 1px #13294b;*/
+    outline:2px solid #000;}
+.tog_wrap input:checked + .slider:before, .tog_wrap .slider.on:before {
+    -webkit-transform: translateX(15px);
     -ms-transform: translateX(15px);
     transform: translateX(15px);
 }
