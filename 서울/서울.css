@@ -52,26 +52,50 @@ label {
 }
 
 /* grid */
+.mb-3{
+  width: 100%;
+  align-items: center;
+}
 .themed-grid-col1 {
-  width: 30.5%;
-  padding: 15px;
+  margin-left: 9%;
+  width: 28%;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
   background-color: rgba(86, 61, 124, .15);
   border: 1px solid rgba(86, 61, 124, .2);
   text-align: center;
   cursor: pointer;
   font-size: 15px;
-  opacity: 0.7;
+  opacity: 0.7; /*투명도 */
+  color: #000;
+}
+.themed-grid-col2 {
+  width: 28%;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  opacity: 0.7; /*투명도 */
+  color: #000;
+}
+.themed-grid-col3 {
+  margin-right: 7%;
+  width: 28%;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  opacity: 0.7; /*투명도 */
+  color: #000;
+}
 
-}
-.mb-3{
-  margin-left: 110px;
-}
-.themed-container {
-  padding: .75rem;
-  margin-bottom: 1.5rem;
-  background-color: rgba(0, 123, 255, .15);
-  border: 1px solid rgba(0, 123, 255, .2);
-}
+
 
 /* scrolltotop 아이콘 둥둥 뜨게 할 애니메이션 작성 */
 @keyframes float {
