@@ -79,6 +79,8 @@ label {
   width: 1200px;
   height: 180px;
   margin-left: 50px;
+  margin-top: 25px;
+  top: 50px;
 
 }
 /* grid hover기능 */
