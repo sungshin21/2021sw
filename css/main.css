@@ -68,56 +68,16 @@ font-size:18px}
     color:#000;
     vertical-align: middle;
 }
-.tog_wrap {
+.mb-3 form-check form-switch {
     position: relative;
     display: inline-block;
     width: 36px;
     height: 21px;
 }
-.tog_wrap input {
+.mb-3 form-check form-switch input {
     opacity: 0;
     width: 0;
     height: 0;
-}
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 34px;
-    background: #d3d3d3;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-.slider:before /* 스위치 동그라미*/{
-    position: absolute;
-    content: "";
-    height: 17px;
-    width: 17px;
-    left: 2px;
-    top: 2px;background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-    border-radius: 50%;
-}
-.slider span{
-    font-size:0;
-    text-indent: -9999px;
-}
-
-.slider .on{display:none;}
-.slider .off{display:block;}
-.slider.on .on{display:block;}
-.slider.on .off{display:none;}
-.tog_wrap input:checked + .slider, .tog_wrap .slider.on {background: #13294b;}
-.tog_wrap input:focus + .slider {/*box-shadow: 0 0 1px #13294b;*/
-    outline:2px solid #000;}
-.tog_wrap input:checked + .slider:before, .tog_wrap .slider.on:before {
-    -webkit-transform: translateX(15px);
-    -ms-transform: translateX(15px);
-    transform: translateX(15px);
 }
 
 /* 지도 관련 기본 세팅*/
