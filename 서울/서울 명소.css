@@ -95,9 +95,10 @@
   background-color: #0d6efd;
 }
   /* grid hover기능 */
-  .themed-grid-col:hover {
-    opacity: 1;
-  }
+.themed-grid-col1:hover {
+    background-color: rgba(200, 188, 219, 0.15);
+    font-weight: bold;
+}
   
   /* footer */
   footer {
