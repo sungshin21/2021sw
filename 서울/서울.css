@@ -16,6 +16,9 @@ font-size:18px}
   font-size: 30px;
   font-weight: 500;
 }
+.container{
+align-items: center;
+}
 
 /* 메뉴바 */
 .sidebar{
@@ -43,7 +46,8 @@ label {
 }
 #search-box{
   position: absolute;
-  margin-right: 160px;}
+  margin-right:160px;
+}
 /* search icon */
 #searchicon{
   position: absolute;
@@ -53,82 +57,85 @@ label {
 
 /* grid */
 .mb-3{
-  width: 100%;
-  align-items: center;
+width: 100%;
+align-items: center;
+
 }
 .themed-grid-col1 {
-  margin-left: 9%;
-  width: 28%;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  background-color: rgba(86, 61, 124, .15);
-  border: 1px solid rgba(86, 61, 124, .2);
-  text-align: center;
-  cursor: pointer;
-  font-size: 15px;
-  opacity: 1;
-
+margin-left: 9%;
+width: 28%;
+padding-top: .75rem;
+padding-bottom: .75rem;
+background-color: #0d6efd;
+border: 1px solid rgba(86, 61, 124, .2);
+text-align: center;
+cursor: pointer;
+font-size: 15px;
+color: #000;
 }
 .themed-grid-col2 {
-  width: 28%;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  background-color: rgba(86, 61, 124, .15);
-  border: 1px solid rgba(86, 61, 124, .2);
-  text-align: center;
-  cursor: pointer;
-  font-size: 15px;
-  opacity: 0.7; /*투명도 */
-  color: #000;
+width: 28%;
+padding-top: .75rem;
+padding-bottom: .75rem;
+background-color: rgba(86, 61, 124, .2);
+border: 1px solid rgba(86, 61, 124, .2);
+text-align: center;
+cursor: pointer;
+font-size: 15px;
+opacity: 0.7; /*투명도 */
+color: #000;
 }
 .themed-grid-col3 {
-  margin-right: 7%;
-  width: 28%;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  background-color: rgba(86, 61, 124, .15);
-  border: 1px solid rgba(86, 61, 124, .2);
-  text-align: center;
-  cursor: pointer;
-  font-size: 15px;
-  opacity: 0.7; /*투명도 */
-  color: #000;
+margin-right: 7%;
+width: 28%;
+padding-top: .75rem;
+padding-bottom: .75rem;
+background-color: rgba(86, 61, 124, .2);
+border: 1px solid rgba(86, 61, 124, .2);
+text-align: center;
+cursor: pointer;
+font-size: 15px;
+opacity: 0.7; /*투명도 */
+color: #000;
 }
-.home_title{
-  font-size: 50px; 
-  color: aliceblue;
-}
-  /* 맛집 내용부분 */
-  .store{
-    padding: 40px;
-  }
-  .card{
-    width: 1200px;
-    height: 180px;
-    margin-left: 50px;
-    margin-top: 25px;
-    top: 50px;
-  
-  }
-  /* home/맛집/명소 배경 */
+
+/* home/맛집/명소 배경 */
 .background{
   z-index: -1;
-  position: absolute;
-  margin-top: -25px;
-  margin-left: -3px;
-  height: 2100px;
-  width: 1305px;
-  border: 100px solid rgba(0, 123, 255, .2);
+  position: flex;
+  margin-left: 8%;
+  margin-right: 8%;
+  width: 84%;
+  height: 100%;
   background-color: #0d6efd;
-}
-  /* grid hover기능 */
-.themed-grid-col1:hover {
-  background-color: rgba(200, 188, 219, 0.15);
-  font-weight: bold;
+  border: 100px solid rgba(0, 123, 255, .2);
+  text-align: center;
+  align-items: center;
 }
 
+/* 맛집 내용부분 */
+.card{
+  z-index: 0;
+  align-items: center;
+  width: 100%;
+  height: 180px;
+  margin-top: 25px;
+}
 
 
+/* grid hover기능 */
+.themed-grid-col:hover {
+  opacity: 1;
+}
+
+/* footer */
+footer {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background: #cccccc;
+  top:1600px
+}
 /* scrolltotop 아이콘 둥둥 뜨게 할 애니메이션 작성 */
 @keyframes float {
   0% {
@@ -149,7 +156,6 @@ label {
   animation: float 6s ease infinite;
   font-size: 70px;
   z-index: 5;
- 
   /* 블록 속성 만들기*/
    display: inline-block; 
    position:fixed;
@@ -157,17 +163,4 @@ label {
    right:3%;
   opacity:0;
   transition: 0.4s;
-}
- /* footer */
- footer {
-  z-index: 1;
-  position: relative;
-  height: 100px;
-  width: 100%;
-  background: #cccccc;
-  bottom: 0px;
-}
-.themed-grid-col1:nth-child(1){
-  background-color: #0d6efd;
-  color: #fff;
 }
