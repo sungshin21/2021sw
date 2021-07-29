@@ -1,0 +1,143 @@
+/* 로고 및 기본 설정 */
+#logo{
+    width:50px;
+    height: 50px;
+  }
+  
+  a{text-decoration: none;
+  z-index: 5;}
+  
+  .nav-scroller a:hover{text-decoration: underline;
+  color:#000;
+  font-size:18px}
+  
+  .text-center{
+    font-family: "Do Hyeon", serif;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  /* 메뉴바 */
+  .sidebar{
+    width: 35px;
+    height: 35px;
+    fill: currentColor;
+    cursor: pointer;
+  }
+  .sidebar .menubar{
+    width: 35px;
+    height: 35px;
+    fill: currentColor;
+    cursor: pointer;
+  }
+  .text-center{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+  }
+  /* search-box*/
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    margin: .4rem 0;
+  }
+  #search-box{
+    position: absolute;
+    margin-right:160px;
+  }
+  /* search icon */
+  #searchicon{
+    position: absolute;
+    margin-right:150px;
+    top:17px;
+  }
+  
+  /* grid */
+  .themed-grid-col1 {
+    width: 30.5%;
+    padding: 15px;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .mb-3{
+    margin-left: 110px;
+  }
+  .themed-container {
+    padding: .75rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(0, 123, 255, .15);
+    border: 1px solid rgba(0, 123, 255, .2);
+  }
+  /* 맛집 내용부분 */
+  .store{
+    padding: 40px;
+  }
+  .card{
+    width: 1200px;
+    height: 180px;
+    margin-left: 50px;
+    margin-top: 25px;
+    top: 50px;
+    cursor: pointer;
+  }
+  /* home/맛집/명소 배경 */
+.background{
+  z-index: -1;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -3px;
+  height: 2100px;
+  width: 1305px;
+  border: 100px solid rgba(0, 123, 255, .2);
+  background-color: #0d6efd;
+}
+  /* grid hover기능 */
+.themed-grid-col1:hover {
+    background-color: rgba(200, 188, 219, 0.15);
+    font-weight: bold;
+}
+  
+  /* footer */
+  footer {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background: #cccccc;
+    top:1600px
+  }
+  /* scrolltotop 아이콘 둥둥 뜨게 할 애니메이션 작성 */
+  @keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+  }
+  /*Scroll To Top 아이콘 배치 */
+  
+  #scrollToTop {
+    color: #444343;
+    cursor: pointer;
+    animation: float 6s ease infinite;
+    font-size: 70px;
+    z-index: 5;
+   
+    /* 블록 속성 만들기*/
+     display: inline-block; 
+     position:fixed;
+     bottom:20px;
+     right:3%;
+    opacity:0;
+    transition: 0.4s;
+  }
+.themed-grid-col1:nth-child(3){
+    background-color: #0d6efd;
+    color: #fff;
+   }

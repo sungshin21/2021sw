@@ -66,8 +66,8 @@ label {
   text-align: center;
   cursor: pointer;
   font-size: 15px;
-  opacity: 0.7; /*투명도 */
-  color: #000;
+  opacity: 1;
+
 }
 .themed-grid-col2 {
   width: 28%;
@@ -93,6 +93,38 @@ label {
   font-size: 15px;
   opacity: 0.7; /*투명도 */
   color: #000;
+}
+.home_title{
+  font-size: 50px; 
+  color: aliceblue;
+}
+  /* 맛집 내용부분 */
+  .store{
+    padding: 40px;
+  }
+  .card{
+    width: 1200px;
+    height: 180px;
+    margin-left: 50px;
+    margin-top: 25px;
+    top: 50px;
+  
+  }
+  /* home/맛집/명소 배경 */
+.background{
+  z-index: -1;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -3px;
+  height: 2100px;
+  width: 1305px;
+  border: 100px solid rgba(0, 123, 255, .2);
+  background-color: #0d6efd;
+}
+  /* grid hover기능 */
+.themed-grid-col1:hover {
+  background-color: rgba(200, 188, 219, 0.15);
+  font-weight: bold;
 }
 
 
@@ -128,9 +160,14 @@ label {
 }
  /* footer */
  footer {
+  z-index: 1;
   position: relative;
   height: 100px;
   width: 100%;
   background: #cccccc;
-  top:1600px
+  bottom: 0px;
+}
+.themed-grid-col1:nth-child(1){
+  background-color: #0d6efd;
+  color: #fff;
 }
