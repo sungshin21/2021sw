@@ -74,13 +74,11 @@ label {
   border: 1px solid rgba(0, 123, 255, .2);
 }
 /* 맛집 내용부분 */
-.store{
-  padding: 40px;
-}
+
 .card{
   width: 1200px;
   height: 180px;
-  margin-left: 170px;
+  margin-left: 50px;
 
 }
 /* grid hover기능 */
