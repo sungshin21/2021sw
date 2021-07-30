@@ -1,4 +1,4 @@
-// 햄버거 바 아이콘 선택자
+// 아이콘 선택자
 const menuOpenEl = document.getElementById('btn--open')
 // 닫는 아이콘 선택자
 const menuCloseEl = document.getElementById('btn--close')
@@ -25,3 +25,4 @@ menuCloseEl.addEventListener("click", function() {
     // 사이드 메뉴를 원상태로 숨깁니다
     sideMenuEl.style.transform = 'translateX(-100%)'
 })
+
