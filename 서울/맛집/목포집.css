@@ -101,3 +101,27 @@ font-size:18px}
     font-size: 20px;
 }
 
+/* 리뷰 */
+.btn btn-sm btn-outline-secondary{
+    cursor: pointer;
+}
+#review{
+    top: 50%;
+    left: 20%;
+    right: 20%;
+    background-color: #000;
+    border-radius: 10px;
+    width: 60%;
+    height: 500px;
+    align-items: center; 
+    position: absolute; 
+}
+/* 여는 아이콘 */
+.material-icons#btn--open {
+    display: block;
+}
+/* 닫는 아이콘 */
+.material-icons#btn--close {
+    display: none;}
+
+   
