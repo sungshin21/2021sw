@@ -122,7 +122,10 @@ a{
     height: 180px;
     margin-top: 25px;
     cursor: pointer;
+    border: 1px solid #0d6efd;
   }
+  /* 내용 hover기능 */
+  
 
 
   /* grid hover기능 */
