@@ -127,15 +127,14 @@ color: #000;
   opacity: 1;
 }
 
-/* footer */
 footer {
-  align-items: center;
-  position: relative;
-  height: 100px;
-  width: 100%;
-  background: #cccccc;
-  top:1600px
-}
+    align-items: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background: #cccccc;
+    bottom:0;
+  }
 
 /* scrolltotop 아이콘 둥둥 뜨게 할 애니메이션 작성 */
 @keyframes float {
