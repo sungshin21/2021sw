@@ -125,19 +125,27 @@ font-size:18px}
     left: 20%;
     right: 20%;
     background-color: dimgray;
+
     border-radius: 10px;
     width: 60%;
     height: 500px;
     align-items: center; 
     position: absolute; 
-}
+    /* display:none;*/
+} 
 /* 여는 아이콘 */
 #btn--open {
     display: block;
+    position: relative;;
 }
 /* 닫는 아이콘 */
 #btn--close {
-    display: none;}
+    /* display: none; */
+position: relative;
+top:10px;
+margin-left: 96%;
+width:30px;
+cursor: pointer;}
 
 /* 리뷰 안 내용 */
 .review-contentname{

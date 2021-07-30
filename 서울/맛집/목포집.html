@@ -18,7 +18,7 @@
     <!-- 파비콘(favorite icon) 설정 -->
     <link rel="icon" href="/images/world.png" />
     <!--js-->
-    <script defer src="../../js/main.js"></script>
+    <script defer src="./목포집.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 
   
@@ -97,23 +97,28 @@
     <div id="review">
       <div id="review-item">
         <!--리뷰참여 팝업창-->
-        <div id="btn--open" class="material-icons">
-          <a class="btn btn-sm btn-outline-secondary" href="#">리뷰 참여하기</a>
-        </div>
-        <!-- 닫는 아이콘 -->
-        <div id="btn--close" class="material-icons">
-          <span class="material-icons-outlined">close</span> 
-        </div>
+        <!-- 여는 아이콘(기본 보이는 아이콘)-->
+          <div id="btn--open" class="material-icons">
+            <a class="btn btn-sm btn-outline-secondary" href="#">리뷰 참여하기</a>
+          </div>
+      
 
        <!-- 리뷰참여 창: 누르면 뜨는 창-->
         <nav id="pop">
-          <p class="review-contentname">리뷰 참여하기</p>
+          <!-- 닫는 아이콘 -->
+          <div id="btn--close" class="material-icons">
+           <span class="material-icons-outlined">close</span>
+          </div>
+
+          <p class="review-contentname">[리뷰 참여하기]</p>
           <p class="review-content">별점</p>
           <p class="review-content">가격</p>
-          <p class="review-content">누구와의 방문</p>
+          <p class="review-content">누구와의 방문</p> 
+
         </nav>
       </div>
     </div> 
+
 
     
     <!--공감&댓글-->
