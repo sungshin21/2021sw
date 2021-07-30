@@ -130,6 +130,7 @@ color: #000;
 
 /* footer */
 footer {
+  align-items: center;
   position: relative;
   height: 100px;
   width: 100%;
