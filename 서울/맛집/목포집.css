@@ -124,3 +124,7 @@ font-size:18px}
 /* 닫는 아이콘 */
 #btn--close {
     display: none;}
+
+.review-content{
+    color: aliceblue;
+}
