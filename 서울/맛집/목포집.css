@@ -100,6 +100,7 @@ font-size:18px}
     margin-top: 20px;
     font-size: 20px;
 }
+
 /* 지도 위치 */
 #maps{
     position: relative;
@@ -108,7 +109,29 @@ font-size:18px}
     height: 500px;
     margin-top: -100px;
 }
-/* 닫는 버튼 안보이게*/
-#btn--close{
-    display: none;
+
+
+
+/* 리뷰 */
+.btn btn-sm btn-outline-secondary{
+    cursor: pointer;
 }
+#review{
+    top: 50%;
+    left: 20%;
+    right: 20%;
+    background-color: #000;
+    border-radius: 10px;
+    width: 60%;
+    height: 500px;
+    align-items: center; 
+    position: absolute; 
+}
+/* 여는 아이콘 */
+#btn--open {
+    display: block;
+}
+/* 닫는 아이콘 */
+#btn--close {
+    display: none;}
+
