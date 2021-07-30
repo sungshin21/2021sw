@@ -1,0 +1,48 @@
+
+.themed-grid-col1 {
+    margin-left: 9%;
+    width: 82%;
+    height: 50px;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    opacity: 0.7; /*투명도 */
+    color: #000;
+    border-radius: 20px;
+}
+.themed-grid-col2 {
+    margin-left: 9%;
+    width: 20%;
+    height: 150px;
+    
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+   
+    cursor: pointer;
+  
+    margin-top: 20px;
+    color: #000;
+    border-radius: 20px;
+}
+.themed-grid-col3 {
+    top: 20px;
+    margin-left: 30%;
+    width: 61%;
+    height: 150px;
+    position: relative;
+    padding-top: .75rem;
+    padding-left: .75rem;
+    top:-150px;
+    padding-bottom: .75rem;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+    text-align: left;
+    cursor: pointer;
+    font-size: 15px;
+    opacity: 0.7; /*투명도 */
+    color: #000;
+}
