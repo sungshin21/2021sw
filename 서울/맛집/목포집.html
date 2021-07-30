@@ -64,9 +64,9 @@
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
                     <li class="breadcrumb"><a href="/서울/서울.html">서울 </a></li>
-                    <li class="breadcrumb" style="font-weight: bolder;"><a > </a></li>
+                    <li class="breadcrumb" style="font-weight: bolder;"><a> > </a></li>
                     <li class="breadcrumb"><a href="/서울/서울 맛집.html">맛집</a></li>
-                    <li class="breadcrumb" style="font-weight: bolder;" ><a >  </a></li>
+                    <li class="breadcrumb" style="font-weight: bolder;" ><a> > </a></li>
                     <li class="breadcrumb" aria-current="page"> 목포집</li>
                   </ol>
                 </nav>
@@ -93,9 +93,14 @@
     </div>
 
     <!--리뷰참여 팝업창-->
-    <p onclick="popAlert()">      
+    <div id="btn--open" class="material-icons">
       <a class="btn btn-sm btn-outline-secondary" href="#">리뷰 참여하기</a>
-    </p>
+  </div>
+  <!-- 닫는 아이콘 -->
+  <div id="btn--close" class="material-icons">
+    <a class="btn btn-sm btn-outline-secondary" href="#">리뷰 참여하기</a>
+  </div> 
+      
 
     <!--의견 창-->
   <div class="input-group">
@@ -103,46 +108,7 @@
       <span class="input-group-text" _msthash="1083004" _msttexthash="30204668" style="direction: ltr;">입력</span>
     </div>
   <hr>
-  <!--열었다 열수 있는 창-->
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h4 class="accordion-header" id="headingOne">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            Item #1
-          </button>
-        </h4>
-        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
-          <div class="accordion-body">
-            <strong>리뷰1</strong>#
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h4 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Item #2
-          </button>
-        </h4>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
-          <div class="accordion-body">
-              <strong>리뷰2</strong>#
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h4 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Item #3
-          </button>
-        </h4>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
-          <div class="accordion-body">
-              <strong>리뷰3</strong>#
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <hr>
     <!--공감&댓글-->
     <span class="material-icons-outlined">
       thumb_up_alt
