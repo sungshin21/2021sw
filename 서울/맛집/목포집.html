@@ -73,6 +73,7 @@
         </main>
 
     </div>
+
     <div class="row mb-3">
         <div class="themed-grid-col1">목포집</div>
     
@@ -88,5 +89,61 @@
                 메뉴: 닭볶음탕, 새우탕, 갈치조림, 낙지볶음 등<br></p>
         </div>
     </div>
+
+    <!--리뷰참여 팝업창-->
+    <p onclick="popAlert()">      
+      <a class="btn btn-sm btn-outline-secondary" href="#">리뷰 참여하기</a>
+    </p>
+
+    <!--의견 창-->
+  <div class="input-group">
+      <textarea class="form-control" aria-label="텍스트 영역" _mstaria-label="30204668" style="direction: ltr; text-align: left;"></textarea>
+      <span class="input-group-text" _msthash="1083004" _msttexthash="30204668" style="direction: ltr;">입력</span>
+    </div>
+  <hr>
+  <!--열었다 열수 있는 창-->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h4 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Item #1
+          </button>
+        </h4>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+          <div class="accordion-body">
+            <strong>리뷰1</strong>#
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h4 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Item #2
+          </button>
+        </h4>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+          <div class="accordion-body">
+              <strong>리뷰2</strong>#
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h4 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Item #3
+          </button>
+        </h4>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
+          <div class="accordion-body">
+              <strong>리뷰3</strong>#
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <!--공감&댓글-->
+    <span class="material-icons-outlined">
+      thumb_up_alt
+      </span>
 </body>
 </html>
