@@ -26,3 +26,5 @@ menuCloseEl.addEventListener("click", function() {
     sideMenuEl.style.transform = 'translateX(-100%)'
 })
 
+
+
