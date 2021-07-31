@@ -13,12 +13,13 @@
     opacity: 0.7; /*투명도 */
     color: #000;
     border-radius: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
 }
 .themed-grid-col2 {
     margin-left: 9%;
     width: 20%;
     height: 150px;
-    
     background-color: rgba(86, 61, 124, .15);
     border: 1px solid rgba(86, 61, 124, .2);
    
@@ -37,6 +38,8 @@
     padding-top: .75rem;
     padding-left: .75rem;
     top:-150px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
     padding-bottom: .75rem;
     background-color: rgba(86, 61, 124, .15);
     border: 1px solid rgba(86, 61, 124, .2);
@@ -99,6 +102,14 @@ font-size:18px}
 .breadcrumb{
     margin-top: 20px;
     font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+}
+.breadcrumb a{
+    color: #000;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+
 }
 
 /* 지도 위치 */
@@ -142,23 +153,103 @@ cursor: pointer;}
     top: 80%;
     left: 20%;
     right: 20%;
-    background-color: dimgray;
-
+    background-color: #fff;
+    border: 1px solid rgba(86, 61, 124, .2);
     border-radius: 10px;
     width: 60%;
+    z-index: 999;
     height: 500px;
     align-items: center; 
     position: absolute; 
     /* display:none;*/
 } 
-
+/* 누를 때 창의 배경 */
+/*moremenu 클릭시 바깥쪽 영역*/
+nav#outside__menu{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #000;
+    z-index: 999;
+    opacity: 0.6;
+    
+}
 /* 리뷰 안 내용 */
 .review-contentname{
     left: 20%;
-    color: aliceblue;
+    color: #000;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
 }
 .review-content{
     left: 5%;
-    color: aliceblue;
+    color: #000;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
 }
 
+/* 레이아웃 외곽 너비 400px 제한*/
+.wrap{
+    max-width: 480px;
+    margin: 0 auto; /* 화면 가운데로 */
+    background-color: #fff;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.reviewform textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.rating .rate_radio {
+    position: relative;
+    display: inline-block;
+    z-index: 20;
+    opacity: 0.001;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    cursor: pointer;
+    vertical-align: top;
+    display: none;
+}
+.rating .rate_radio + label {
+    position: relative;
+    display: inline-block;
+    margin-left: 4px;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    background-image: url('../../images/starrate/starrate.png');
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    cursor: pointer;
+    background-color: dimgray;
+}
+.rating .rate_radio:checked + label {
+    background-color:yellow;
+}
+
+.warning_msg {
+    display: none;
+    position: relative;
+    text-align: center;
+    background: #ffffff;
+    line-height: 26px;
+    width: 100%;
+    color: red;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+}

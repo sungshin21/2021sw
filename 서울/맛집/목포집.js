@@ -4,6 +4,8 @@ const menuOpenEl = document.getElementById('btn--open')
 const menuCloseEl = document.getElementById('btn--close')
 // 사이드 네비게이션 선택자
 const sideMenuEl = document.getElementById('pop')
+//outside_menu 영역 선택자
+const outsideMenuEl=document.getElementById('outside__menu')
 
 
 // 햄버거 바 아이콘에 클릭 이벤트가 발생하면,
@@ -14,6 +16,8 @@ menuOpenEl.addEventListener("click", function() {
     menuCloseEl.style.display = 'block'
     // 사이드 메뉴를 보이게 합니다 
     sideMenuEl.style.display = 'block'
+    //outside_menu 숨기기
+    outsideMenuEl.style.display='block'
 })
 
 // 닫는 아이콘에 클릭 이벤트가 발생하면,
@@ -24,7 +28,33 @@ menuCloseEl.addEventListener("click", function() {
     menuCloseEl.style.display = 'none'
     // 사이드 메뉴를 원상태로 숨깁니다
     sideMenuEl.style.display = 'none'
+    //outside_menu 숨기기
+    outsideMenuEl.style.display='none'
 })
 
-
+//별점 마킹 모듈 프로토타입으로 생성
+function Rating(){};
+Rating.prototype.rate = 0;
+Rating.prototype.setRate = function(newrate){
+    //별점 마킹 - 클릭한 별 이하 모든 별 체크 처리
+    this.rate = newrate;
+    let items = document.querySelectorAll('.rate_radio');
+    items.forEach(function(item, idx){
+        if(idx < newrate){
+            item.checked = true;
+        }else{
+            item.checked = false;
+        }
+    });
+}
+let rating = new Rating();//별점 인스턴스 생성
+document.addEventListener('DOMContentLoaded', function(){
+    //별점선택 이벤트 리스너
+    document.querySelector('.rating').addEventListener('click',function(e){
+        let elem = e.target;
+        if(elem.classList.contains('rate_radio')){
+            rating.setRate(parseInt(elem.value));
+        }
+    })
+});
 

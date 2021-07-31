@@ -93,7 +93,7 @@
         <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.595966321098!2d127.01913811442653!3d37.51744643469738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3e9bd1feccd%3A0xd91e8f2d2387ff98!2z66qp7Y-s7KeR!5e0!3m2!1sko!2skr!4v1627649359232!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
-
+    <nav id="outside__menu"></nav>
     <div id="review">
       <div id="review-item">
         <!--리뷰참여 팝업창-->
@@ -101,7 +101,7 @@
           <div id="btn--open" class="material-icons">
             <a class="btn btn-sm btn-outline-secondary" href="#">리뷰 참여하기</a>
           </div>
-      
+        
 
        <!-- 리뷰참여 창: 누르면 뜨는 창-->
         <nav id="pop">
@@ -113,6 +113,21 @@
           <p class="review-contentname">[리뷰 참여하기]</p>
           <p class="review-contentname">아이디 공개/ 비공개</p>
           <p class="review-content">별점</p>
+          <div class="review_rating">
+            <div class="warning_msg">별점을 선택해 주세요.</div>
+            <div class="rating">
+                <!-- 해당 별점을 클릭하면 해당 별과 그 왼쪽의 모든 별의 체크박스에 checked 적용 -->
+                <input type="checkbox" name="rating" id="rating1" value="1" class="rate_radio" title="1점">
+                <label for="rating1"></label>
+                <input type="checkbox" name="rating" id="rating2" value="2" class="rate_radio" title="2점">
+                <label for="rating2"></label>
+                <input type="checkbox" name="rating" id="rating3" value="3" class="rate_radio" title="3점" >
+                <label for="rating3"></label>
+                <input type="checkbox" name="rating" id="rating4" value="4" class="rate_radio" title="4점">
+                <label for="rating4"></label>
+                <input type="checkbox" name="rating" id="rating5" value="5" class="rate_radio" title="5점">
+                <label for="rating5"></label>
+            </div></div>
           <p class="review-content">가격</p>
           <p class="review-content">누구와의 방문</p> 
 
