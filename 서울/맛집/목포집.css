@@ -160,7 +160,8 @@ cursor: pointer;}
     z-index: 999;
     height: 500px;
     align-items: center; 
-    position: absolute; 
+    position: absolute;
+    text-align: left; 
     /* display:none;*/
 } 
 /* 누를 때 창의 배경 */
@@ -198,6 +199,7 @@ nav#outside__menu{
     border-color: aliceblue;
     display: block;
 }
+
 
 /* 레이아웃 외곽 너비 400px 제한*/
 .wrap{
@@ -257,3 +259,11 @@ nav#outside__menu{
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
 }
+/*가격*/
+.price{
+    left: 5%;
+}
+.form-range{
+    left: 5%;
+    width: 300px;
+  }
