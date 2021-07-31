@@ -112,8 +112,9 @@
 
           <p class="review-contentname">[리뷰 참여하기]</p>
           <p class="review-contentname">아이디 공개/ 비공개</p>
-          <p class="review-content">별점</p>
+          
           <div class="review_rating">
+            <p class="review-content">별점</p>
             <div class="warning_msg">별점을 선택해 주세요.</div>
             <div class="rating">
                 <!-- 해당 별점을 클릭하면 해당 별과 그 왼쪽의 모든 별의 체크박스에 checked 적용 -->
@@ -129,7 +130,7 @@
                 <label for="rating5"></label>
             </div></div>
           <p class="review-content">가격(가성비)</p>
-          <class class="price">
+          <class class="review-pricing">
              <input type="range" class="form-range" min="1" max="3" step="0.5" id="customRange3">
            </class>
           <p class="review-content">누구와의 방문</p>
@@ -137,7 +138,14 @@
             <button type="button" class="btn btn-sm btn-outline-secondary">가족</button>
             <button type="button" class="btn btn-sm btn-outline-secondary">친구</button>
             <button type="button" class="btn btn-sm btn-outline-secondary">연인</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">기타</button>
           </div> 
+                  
+          <p class="review-content">의견</p>
+          <div class="review-commenting">
+            <span class="input-group-text">의견 남기기</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>            
+          </div>
 
         </nav>
       </div>

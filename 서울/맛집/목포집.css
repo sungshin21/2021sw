@@ -194,6 +194,9 @@ nav#outside__menu{
     color: #000;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
 }
 .btn btn-sm btn-outline-secondary{
     border-color: aliceblue;
@@ -260,10 +263,18 @@ nav#outside__menu{
     font-weight: 700;
 }
 /*가격*/
-.price{
+.review-pricing{
     left: 5%;
 }
 .form-range{
     left: 5%;
     width: 300px;
   }
+/*댓글란*/
+.review-commenting{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: stretch;
+    width: 80%;
+}
