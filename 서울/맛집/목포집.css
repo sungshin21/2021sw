@@ -128,7 +128,10 @@ font-size:18px}
 #review-item{
     left: 20%;
 }
-
+#review-logo{
+    width:50px;
+    height: 50px;
+}
 /* 여는 아이콘 */
 #btn--open {
     display: block;
@@ -166,7 +169,6 @@ cursor: pointer;}
     /* display:none;*/
 } 
 /* 누를 때 창의 배경 */
-/*moremenu 클릭시 바깥쪽 영역*/
 nav#outside__menu{
     position: fixed;
     top: 0;
@@ -196,7 +198,7 @@ nav#outside__menu{
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
 }
-.btn btn-sm btn-outline-secondary{
+.btn btn-outline-secondary{
     border-color: aliceblue;
     display: block;
 }
@@ -276,3 +278,20 @@ nav#outside__menu{
     align-items: stretch;
     width: 80%;
 }
+/* 거리 계산 버튼 */
+#distance{
+    position: relative;
+    z-index: 5;
+    margin-left: 50%;
+    margin-top:-90px;
+    width: 500px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    padding-top: 3px;
+}
+
