@@ -137,6 +137,7 @@ font-size:18px}
 
 .btn btn-sm btn-outline-secondary{
     cursor: pointer;
+    left: 20%;
 }
 
 /* 닫는 아이콘 */
@@ -180,8 +181,8 @@ nav#outside__menu{
     background-color: #000;
     z-index: 999;
     opacity: 0.6;
-    
 }
+
 /* 리뷰 안 내용 */
 .review-contentname{
     left: 20%;
