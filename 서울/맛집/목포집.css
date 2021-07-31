@@ -194,6 +194,10 @@ nav#outside__menu{
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
 }
+.btn btn-sm btn-outline-secondary{
+    border-color: aliceblue;
+    display: block;
+}
 
 /* 레이아웃 외곽 너비 400px 제한*/
 .wrap{
