@@ -412,9 +412,10 @@ nav#outside__menu{
 }
 
 /*submit*/
-.submit{
-    margin-left: 90%;
-    display: inline-block;
+#pop .submit{
+    /* display: inline-block; */
+    position: relative;
+    bottom: 30px;
     font-weight: 400;
     line-height: 1.5;
     color: #fff;
