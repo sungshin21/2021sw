@@ -333,7 +333,11 @@ nav#outside__menu{
     margin-top: 5%;
     margin-bottom: -20px;
 }
-/*공감*/
+/*리뷰 안 공감 버튼*/
+.material-icons-outlined{
+    margin-left: 90%;
+
+}
 
 /*submit*/
 .submit{    
