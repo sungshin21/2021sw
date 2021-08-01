@@ -236,6 +236,11 @@ nav#outside__menu{
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
 }
+.review-number{
+    margin-left: 70px;
+    word-spacing: 54px;
+
+}
 .btn btn-outline-secondary{
     border-color: aliceblue;
     display: block;
@@ -333,4 +338,31 @@ nav#outside__menu{
     margin-top: 5%;
     margin-bottom: -20px;
 }
-/*공감*/
+/*리뷰 안 공감 버튼*/
+.material-icons-outlined{
+    margin-left: 97%;
+
+}
+
+/*submit*/
+.submit{    
+    margin-top: 5%;
+    margin-left: 85%;
+    width: 10%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    white-space: nowrap;
+    background-color: rgb(0, 17, 255);
+    border: 1px solid #000000;
+    border-radius: .25rem;
+    cursor: pointer;
+
+}
+
