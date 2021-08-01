@@ -54,7 +54,7 @@ width: 84%;
     padding-left: .50rem;
     top:-170px;
     font-family: 'Nanum Gothic', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     padding-bottom: .50rem;
     background-color: rgba(86, 61, 124, .15);
     border: 1px solid rgba(86, 61, 124, .2);
@@ -64,6 +64,14 @@ width: 84%;
     opacity: 0.7; /*투명도 */
     color: #000;
     border-radius: 20px;
+}
+/* 주요 글씨 두껍게 */
+.themed-grid-col3 b{
+    font-weight: 700;
+    color:black
+}
+.themed-grid-col3 p{
+    color: black;
 }
 /* 로고 및 기본 설정 */
 #logo{
@@ -117,7 +125,7 @@ font-size:18px}
 /* 서울>맛집>목포집 */
 .breadcrumb{
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
 }
@@ -161,10 +169,16 @@ font-size:18px}
 /* 리뷰 참여하기 누르는 박스*/
 #review-item{
     left: 20%;
+    
 }
 #review-logo{
     width:50px;
     height: 50px;
+    margin-top: 20px;
+}
+.review-contentname1 p{
+    margin-top: -40px;
+    margin-left: calc(50px + 7%);
 }
 /* 여는 아이콘 */
 #btn--open {
@@ -179,7 +193,8 @@ font-size:18px}
     /* display: none; */
 position: relative;
 top:10px;
-margin-left: 96%;
+float: right;
+padding-right: 40px;
 width:30px;
 cursor: pointer;}
 
@@ -229,19 +244,22 @@ nav#outside__menu{
     color: rgb(0, 17, 255);
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
+    margin-top: -5px;
 }
 .review-content{
     margin-left: 5%;
     color: rgb(0, 17, 255);
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
+    
 }
 .review-number{
-    margin-left: 70px;
+    margin-left: 65px;
     word-spacing: 54px;
 
 }
-.btn btn-outline-secondary{
+
+.btn .btn-outline-secondary{
     border-color: aliceblue;
     display: block;
 }
@@ -282,6 +300,8 @@ nav#outside__menu{
     position: relative;
     display: inline-block;
     margin-left: 4px;
+    margin-top: -10px;
+    margin-bottom: 10px;
     z-index: 10;
     width: 40px;
     height: 40px;
@@ -316,6 +336,10 @@ nav#outside__menu{
 .form-range{
     width: 300px;
   }
+.review-pricing a{
+    position: relative;
+    top: -7px;
+}
 
 /*누구와의 방문*/
 .btn-group{
@@ -338,6 +362,24 @@ nav#outside__menu{
     margin-top: 5%;
     margin-bottom: -20px;
 }
+.col h2{
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700; 
+    margin-bottom: 20px;
+}
+.card-header{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+}
+.card-body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+}
+.card-body h5{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+}
 /*리뷰 안 공감 버튼*/
 .material-icons-outlined{
     margin-left: 97%;
@@ -346,14 +388,11 @@ nav#outside__menu{
 
 /*submit*/
 .submit{    
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 85%;
-    width: 10%;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    display: flex;
-    padding: .375rem .75rem;
+    width:10%;
+    position: relative;
+    padding:auto;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -365,4 +404,33 @@ nav#outside__menu{
     cursor: pointer;
 
 }
-
+/* 리뷰 속 별점 */
+.review-rating .rate_radio {
+    position: relative;
+    display: inline-block;
+    z-index: 20;
+    opacity: 0.001;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    cursor: pointer;
+    vertical-align: top;
+    display: none;
+}
+.review-rating .rate_radio + label{
+    margin-left: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    background-image: url('../../images/starrate/starrate.png');
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    cursor: pointer;
+    background-color: dimgray;
+    margin-top: -10px;
+}
+.review-rating .rate_radio:checked + label {
+    background-color:rgb(255, 217, 0);
+}
