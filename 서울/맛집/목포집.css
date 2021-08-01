@@ -419,5 +419,13 @@ nav#outside__menu{
     margin-left: 97%;
 
 }
+/* footer */
+footer {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background: #cccccc;
+    top:1600px
+}
 
 
