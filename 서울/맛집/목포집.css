@@ -328,3 +328,26 @@ nav#outside__menu{
 }
 
 /*공감*/
+
+/*submit*/
+.submit{    
+    margin-top: 5%;
+    margin-left: 85%;
+    width: 10%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    white-space: nowrap;
+    background-color: rgb(0, 17, 255);
+    border: 1px solid #000000;
+    border-radius: .25rem;
+    cursor: pointer;
+
+}
+
