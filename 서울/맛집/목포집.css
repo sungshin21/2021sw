@@ -288,6 +288,11 @@ nav#outside__menu{
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
 }
+.review-number{
+    margin-left: 70px;
+    word-spacing: 54px;
+
+}
 .btn btn-outline-secondary{
     border-color: aliceblue;
     display: block;
