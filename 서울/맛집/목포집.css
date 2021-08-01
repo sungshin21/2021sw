@@ -220,7 +220,8 @@ font-size:18px}
 }
 /* 여는 아이콘 */
 #btn--open {
-    margin-left: 10%;
+    top: 100px;
+    margin-left: 83%;
     display: block;
     position: relative;    
 }
