@@ -19,28 +19,27 @@
 .themed-grid-col2 {
     margin-left: 9%;
     width: 20%;
-    height: 150px;
+    height: 170px;
     background-color: rgba(86, 61, 124, .15);
     border: 1px solid rgba(86, 61, 124, .2);
-   
+    padding-left: 0px;
+    padding-right: 0px;
     cursor: pointer;
-  
     margin-top: 20px;
     color: #000;
     border-radius: 20px;
 }
 .themed-grid-col3 {
-    top: 20px;
     margin-left: 30%;
     width: 61%;
-    height: 150px;
+    height: 170px;
     position: relative;
-    padding-top: .75rem;
-    padding-left: .75rem;
-    top:-150px;
+    padding-top: .50rem;
+    padding-left: .50rem;
+    top:-170px;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
-    padding-bottom: .75rem;
+    padding-bottom: .50rem;
     background-color: rgba(86, 61, 124, .15);
     border: 1px solid rgba(86, 61, 124, .2);
     text-align: left;
@@ -48,6 +47,7 @@
     font-size: 15px;
     opacity: 0.7; /*투명도 */
     color: #000;
+    border-radius: 20px;
 }
 /* 로고 및 기본 설정 */
 #logo{
@@ -119,6 +119,7 @@ font-size:18px}
     width:82%;
     height: 500px;
     margin-top: -100px;
+    border-radius: 40px;
 }
 /* 거리 계산 버튼 */
 #distance{
