@@ -6,6 +6,12 @@ margin-right: 8%;
 width: 84%;
 }
 
+/*서울> 맛집> 목포집*/
+.route{
+    margin-left: 9%;
+    width: 82%;
+}
+
 /*목포집 타이틀 */
 .themed-grid-col1 {
     margin-left: 9%;
