@@ -6,6 +6,12 @@ margin-right: 8%;
 width: 84%;
 }
 
+/*서울> 맛집> 목포집*/
+.route{
+    margin-left: 9%;
+    width: 82%;
+}
+
 /*목포집 타이틀 */
 .themed-grid-col1 {
     margin-left: 9%;
@@ -135,7 +141,7 @@ font-size:18px}
 #distance{
     position: relative;
     z-index: 5;
-    margin-left: 55%;
+    margin-left: calc(9% + 450px);
     margin-top:-90px;
     width: 400px;
     height: 30px;
@@ -281,7 +287,7 @@ nav#outside__menu{
     background-color: dimgray;
 }
 .rating .rate_radio:checked + label {
-    background-color:yellow;
+    background-color:rgb(255, 217, 0);
 }
 
 .warning_msg {
