@@ -320,5 +320,11 @@ nav#outside__menu{
     align-items: stretch;
     width: 80%;
 }
-
+/* 리뷰 */
+.col{
+    width: 83%;
+    margin-left: 8.5%;
+    margin-top: 5%;
+    margin-bottom: -20px;
+}
 /*공감*/
