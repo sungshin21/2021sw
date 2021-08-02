@@ -4,9 +4,10 @@
   height: 50px;
 }
 
-a{
+a:not(.link-secondary-main){
 text-decoration: none;
 z-index: 5;
+color: #000;
 }
 
 .nav-scroller a:hover{text-decoration: underline;
@@ -136,7 +137,8 @@ color: #000;
 
 
 /* grid hover기능 */
-.themed-grid-col:hover {
+.col:hover {
+  font-weight: bold;
   opacity: 1;
 }
 /* 맛집 사진 맞추기 */

@@ -4,8 +4,11 @@
   height: 50px;
 }
 
-a{text-decoration: none;
-z-index: 5;}
+a:not(.link-secondary-main){
+  text-decoration: none;
+  z-index: 5;
+  color: #000;
+}
 
 .nav-scroller a:hover{text-decoration: underline;
 color:#000;
@@ -78,7 +81,7 @@ color: #000;
 width: 28%;
 padding-top: .75rem;
 padding-bottom: .75rem;
-background-color: rgba(86, 61, 124, .2);
+background-color: rgba(86, 61, 124, .15);
 border: 1px solid rgba(86, 61, 124, .2);
 text-align: center;
 cursor: pointer;
@@ -132,7 +135,8 @@ color: #000;
 
 
 /* grid hover기능 */
-.themed-grid-col:hover {
+.col:hover {
+  font-weight: bold;
   opacity: 1;
 }
 /* 카드 사진 위치 맞추기 */

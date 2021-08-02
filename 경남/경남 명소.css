@@ -4,7 +4,7 @@
   height: 50px;
 }
 
-a{text-decoration: none;
+a:not(.link-secondary-main){text-decoration: none;
 z-index: 5;}
 
 .nav-scroller a:hover{text-decoration: underline;
