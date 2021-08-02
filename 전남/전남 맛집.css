@@ -78,7 +78,7 @@
   width: 28%;
   padding-top: .75rem;
   padding-bottom: .75rem;
-  background-color: #0d6efd;
+  background-color: #8bb6f7;
   border: 1px solid rgba(86, 61, 124, .2);
   text-align: center;
   cursor: pointer;
@@ -107,8 +107,8 @@
     margin-right: 8%;
     width: 84%;
     height: 100%;
-    border: 100px solid rgba(0, 123, 255, .2);
-    background-color: #0d6efd;
+    border: 100px solid #8bb6f7;
+    background-color: #8bb6f7;
     align-items: center;
   }
 
@@ -120,7 +120,7 @@
     height: 180px;
     margin-top: 25px;
     cursor: pointer;
-    border: 1px solid #0d6efd;
+    border: 1px solid #8bb6f7;
   }
   /* 내용 hover기능 */
   .card:hover{
