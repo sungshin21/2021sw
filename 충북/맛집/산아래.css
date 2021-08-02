@@ -71,8 +71,8 @@ width: 84%;
     height: 50px;
     padding-top: .75rem;
     padding-bottom: .75rem;
-    background-color: #8bb6f7;
-    border: 1px solid #8bb6f7;
+    /* background-color: #8bb6f7;
+    border: 1px solid #8bb6f7; */
     text-align: center;
     cursor: pointer;
     font-size: 15px;
@@ -87,8 +87,8 @@ width: 84%;
     margin-left: 9%;
     width: 20%;
     height: 170px;
-    background-color: #8bb6f7;
-    border: 1px solid #8bb6f7;
+    /* background-color: #8bb6f7;
+    border: 1px solid #8bb6f7; */
     padding-left: 0px;
     padding-right: 0px;
     cursor: pointer;
