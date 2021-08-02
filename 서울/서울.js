@@ -4,7 +4,7 @@ window.onload=function() {
     var m = E.length;
     var n = parseInt(Math.random()*m);
     var o = parseInt(Math.random()*m)
-    while (n == 0) {
+    while (n === o) {
         var o = parseInt(Math.random()*m)
       }
     for (var i=m-1;i>=0;i--) {
