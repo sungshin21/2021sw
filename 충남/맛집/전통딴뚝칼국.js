@@ -129,8 +129,8 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 //거리 계산 연습
 var ourCoords = { //목포집 좌표
-    latitude : 37.340054289253565,   //위도
-    longitude : 127.3357018535025,  //경도
+    latitude : 36.508804084469446,   //위도
+    longitude :  126.34864250929795,  //경도
 };
 
 window.onload = getMyLocation;
@@ -155,7 +155,7 @@ function displayLocation(position) {
     var longitude = position.coords.longitude;
     
     var distance = computeDistance(position.coords, ourCoords);
-    $("#distance").html("당신과 궁뜰 사이의 대략적인 거리:"+distance.toFixed(1)+"km");
+    $("#distance").html("당신과 목포집 사이의 대략적인 거리:"+distance.toFixed(1)+"km");
                         
 }
 
