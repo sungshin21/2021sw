@@ -4,7 +4,7 @@
   height: 50px;
 }
 
-a{
+a:not(.link-secondary-main){
   text-decoration: none;
   z-index: 5;
   color: #000;
@@ -135,7 +135,8 @@ color: #000;
 
 
 /* grid hover기능 */
-.themed-grid-col:hover {
+.col:hover {
+  font-weight: bold;
   opacity: 1;
 }
 /* 카드 사진 위치 맞추기 */

@@ -4,7 +4,7 @@
   height: 50px;
 }
 
-a{
+a:not(.link-secondary-main){
   text-decoration: none;
   z-index: 5;
   color: #000;
@@ -69,8 +69,8 @@ margin-left: 9%;
 width: 28%;
 padding-top: .75rem;
 padding-bottom: .75rem;
-background-color: #8bb6f7;
-border: 1px solid #8bb6f7;
+background-color: rgba(86, 61, 124, .15);
+border: 1px solid rgba(86, 61, 124, .2);
 text-align: center;
 cursor: pointer;
 font-size: 15px;
@@ -81,8 +81,8 @@ color: #000;
 width: 28%;
 padding-top: .75rem;
 padding-bottom: .75rem;
-background-color: #8bb6f7;
-border: 1px solid #8bb6f7;
+background-color: rgba(86, 61, 124, .15);
+border: 1px solid rgba(86, 61, 124, .2);
 text-align: center;
 cursor: pointer;
 font-size: 15px;
@@ -135,7 +135,8 @@ color: #000;
 
 
 /* grid hover기능 */
-.themed-grid-col:hover {
+.col:hover {
+  font-weight: bold;
   opacity: 1;
 }
 /* 카드 사진 위치 맞추기 */
