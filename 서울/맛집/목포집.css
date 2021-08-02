@@ -413,6 +413,10 @@ nav#outside__menu{
 
 /*submit*/
 #pop .submit{
+    margin-top: 3%;
+    margin-left: 88%;
+    width:10%;
+    white-space: nowrap;
     /* display: inline-block; */
     position: relative;
     bottom: 30px;
@@ -431,6 +435,7 @@ nav#outside__menu{
     font-size: 1rem;
     border-radius: .25rem;
     transition: color
+    
 }
 
 /* 리뷰 */
@@ -464,24 +469,6 @@ nav#outside__menu{
 
 }
 
-/*submit*/
-.submit{    
-    margin-top: 4%;
-    margin-left: 85%;
-    width:10%;
-    position: relative;
-    padding:auto;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #ffffff;
-    white-space: nowrap;
-    background-color: rgb(0, 17, 255);
-    border: 1px solid #000000;
-    border-radius: .25rem;
-    cursor: pointer;
-
-}
 /* 리뷰 속 별점 */
 .review-rating .rate_radio {
     position: relative;
