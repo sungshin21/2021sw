@@ -5,7 +5,7 @@ window.onload=function() {
     var n = parseInt(Math.random()*m);
     var o = parseInt(Math.random()*m)
     while (n === o) {
-        var o = parseInt(Math.random()*m)
+       o = parseInt(Math.random()*m)
       }
     for (var i=m-1;i>=0;i--) {
     var e = E[i];
