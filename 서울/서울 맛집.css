@@ -73,19 +73,17 @@ a{
   text-align: center;
   cursor: pointer;
   font-size: 15px;
-  opacity: 0.7; /*투명도 */
   color: #000;
 }
 .themed-grid-col2 {
   width: 28%;
   padding-top: .75rem;
   padding-bottom: .75rem;
-  background-color: #0d6efd;
+  background-color:  #8bb6f7;
   border: 1px solid rgba(86, 61, 124, .2);
   text-align: center;
   cursor: pointer;
   font-size: 15px;
-
   color: #000;
 }
 .themed-grid-col3 {
@@ -98,7 +96,6 @@ a{
   text-align: center;
   cursor: pointer;
   font-size: 15px;
-  opacity: 0.7; /*투명도 */
   color: #000;
 }
   /* home/맛집/명소 배경 */
@@ -109,8 +106,8 @@ a{
     margin-right: 8%;
     width: 84%;
     height: 100%;
-    border: 100px solid rgba(0, 123, 255, .2);
-    background-color: #0d6efd;
+    border: 100px solid #8bb6f7;
+    background-color:  #8bb6f7;
     align-items: center;
   }
 
