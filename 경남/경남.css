@@ -130,6 +130,12 @@
   .themed-grid-col:hover {
     opacity: 1;
   }
+  /* 카드 사진 위치 맞추기 */
+.bd-placeholder-img{
+  position: relative;
+  top:-1px;
+  left:-1px;
+}
   
   /* footer */
   footer {
