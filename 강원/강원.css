@@ -102,10 +102,11 @@
   color: #000;
   }
   .home_title{
-    margin-top:-50px;
-    margin-bottom: 50px;
-    margin-left: -550px;
-   }
+    position: absolute;
+   margin-top:-50px;
+   margin-bottom: 50px;
+   margin-left: -2%;
+  }
   /* home/맛집/명소 배경 */
   .background{
     z-index: -1;
