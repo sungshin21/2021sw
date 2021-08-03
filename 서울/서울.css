@@ -128,11 +128,22 @@ color: #000;
   margin-top: 25px;
 }
 
-
+  /* 내용 hover기능 */
+  .card:hover{
+    box-shadow: 4px 4px 4px 4px #041a3b8a;
+    font-weight: bolder;
+  }
+  .card:hover .card-title{
+    font-weight: bolder;
+  }
+  
 /* grid hover기능 */
 .col:hover {
   font-weight: bold;
   opacity: 1;
+}
+.card:hover .card-title{
+  font-weight: bolder;
 }
 /* 카드 사진 위치 맞추기 */
 .bd-placeholder-img{
