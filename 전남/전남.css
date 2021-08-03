@@ -124,7 +124,19 @@
     height: 180px;
     margin-top: 25px;
   }
-  
+  .home_title{
+    margin-top:-50px;
+    margin-bottom: 50px;
+    margin-left: -550px;
+   }
+    /* 내용 hover기능 */
+    .card:hover{
+      box-shadow: 4px 4px 4px 4px #041a3b8a;
+      font-weight: bolder;
+    }
+    .card:hover .card-title{
+      font-weight: bolder;
+    }
   
   /* grid hover기능 */
   .col:hover {
