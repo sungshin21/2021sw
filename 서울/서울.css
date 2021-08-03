@@ -119,9 +119,10 @@ color: #000;
   align-items: center;
 }
 .home_title{
+  position: absolute;
  margin-top:-50px;
  margin-bottom: 50px;
- margin-left: -550px;
+ margin-left: -2%;
 }
 /* 맛집 내용부분 */
 .card{
