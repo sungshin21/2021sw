@@ -119,7 +119,10 @@
     position: absolute;
    margin-top:-50px;
    margin-bottom: 50px;
-   margin-left: -2%;
+   margin-left: 0%;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   text-decoration: underline;
   }
   /* 맛집 내용부분 */
   .card{
