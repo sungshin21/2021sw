@@ -116,10 +116,11 @@ a:not(.link-secondary-main){
     align-items: center;
   }
   .home_title{
-    margin-top:-50px;
-    margin-bottom: 50px;
-    margin-left: -550px;
-   }
+    position: absolute;
+   margin-top:-50px;
+   margin-bottom: 50px;
+   margin-left: -2%;
+  }
   /* 맛집 내용부분 */
   .card{
     z-index: 0;
