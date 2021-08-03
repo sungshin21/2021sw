@@ -128,9 +128,9 @@ document.addEventListener('DOMContentLoaded', function(){
     })
 });
 //거리 계산 연습
-var ourCoords = { //목포집 좌표
-    latitude : 37.51856549999511,   //위도
-    longitude : 127.02115511127529,  //경도
+var ourCoords = { //좌표
+    latitude : 35.5828038456207,   //위도
+    longitude : 129.33171287770827,  //경도
 };
 
 window.onload = getMyLocation;
@@ -155,7 +155,7 @@ function displayLocation(position) {
     var longitude = position.coords.longitude;
     
     var distance = computeDistance(position.coords, ourCoords);
-    $("#distance").html("당신과 도쿄빙수 사이의 대략적인 거리:"+distance.toFixed(1)+"km");
+    $("#distance").html("당신과 아키라 사이의 대략적인 거리:"+distance.toFixed(1)+"km");
                         
 }
 

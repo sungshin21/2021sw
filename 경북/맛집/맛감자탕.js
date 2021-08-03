@@ -128,9 +128,9 @@ document.addEventListener('DOMContentLoaded', function(){
     })
 });
 //거리 계산 연습
-var ourCoords = { //목포집 좌표
-    latitude : 37.51856549999511,   //위도
-    longitude : 127.02115511127529,  //경도
+var ourCoords = { //좌표
+    latitude : 36.02275133572883,   //위도
+    longitude : 129.35247621138524,  //경도
 };
 
 window.onload = getMyLocation;
