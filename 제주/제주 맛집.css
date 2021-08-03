@@ -137,9 +137,11 @@ color: #000;
 
 
 /* grid hover기능 */
-.themed-grid-col:hover {
+.col:hover {
+  font-weight: bold;
   opacity: 1;
 }
+
 /* 맛집 사진 맞추기 */
 .bd-placeholder-img{
   position: relative;
