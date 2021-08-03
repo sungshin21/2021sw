@@ -10,7 +10,8 @@ a:not(.link-secondary-main){
   color: #000;
 }
 
-.nav-scroller a:hover{text-decoration: underline;
+.nav-scroller a:hover{
+text-decoration: underline;
 color:#000;
 font-size:18px}
 
