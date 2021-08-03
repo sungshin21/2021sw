@@ -118,7 +118,11 @@ color: #000;
   text-align: center;
   align-items: center;
 }
-
+.home_title{
+ margin-top:-50px;
+ margin-bottom: 50px;
+ margin-left: -550px;
+}
 /* 맛집 내용부분 */
 .card{
   z-index: 0;
@@ -136,7 +140,7 @@ color: #000;
   .card:hover .card-title{
     font-weight: bolder;
   }
-  
+
 /* grid hover기능 */
 .col:hover {
   font-weight: bold;

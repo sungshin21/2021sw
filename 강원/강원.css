@@ -101,7 +101,11 @@
   opacity: 0.7; /*투명도 */
   color: #000;
   }
-  
+  .home_title{
+    margin-top:-50px;
+    margin-bottom: 50px;
+    margin-left: -550px;
+   }
   /* home/맛집/명소 배경 */
   .background{
     z-index: -1;
