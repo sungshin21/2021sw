@@ -129,8 +129,8 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 //거리 계산 연습
 var ourCoords = { //낙산공원 좌표
-    latitude : 37.58086964336711,   //위도
-    longitude : 127.00735475190059,  //경도
+    latitude : 37.96801930288235,    //위도
+    longitude : 127.57903122404603 //경도
 };
 
 window.onload = getMyLocation;
@@ -155,7 +155,7 @@ function displayLocation(position) {
     var longitude = position.coords.longitude;
     
     var distance = computeDistance(position.coords, ourCoords);
-    $("#distance").html("당신과 낙산공원 사이의 대략적인 거리:"+distance.toFixed(1)+"km");
+    $("#distance").html("당신과 이상원미술관 사이의 대략적인 거리:"+distance.toFixed(1)+"km");
                         
 }
 
