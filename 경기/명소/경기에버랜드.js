@@ -129,8 +129,8 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 //거리 계산 연습
 var ourCoords = { // 좌표
-    latitude : 34.91712052495648,   //위도
-    longitude : 128.51968460227653 ,  //경도
+    latitude : 37.29081376363457,    //위도
+    longitude : 127.21705139127677 ,  //경도
 };
 
 window.onload = getMyLocation;
@@ -155,7 +155,7 @@ function displayLocation(position) {
     var longitude = position.coords.longitude;
     
     var distance = computeDistance(position.coords, ourCoords);
-    $("#distance").html("당신과 온더선셋(루프탑카페) 사이의 대략적인 거리:"+distance.toFixed(1)+"km");
+    $("#distance").html("당신과 에버랜드 사이의 대략적인 거리:"+distance.toFixed(1)+"km");
                         
 }
 
