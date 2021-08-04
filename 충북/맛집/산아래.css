@@ -71,8 +71,8 @@ width: 84%;
     height: 50px;
     padding-top: .75rem;
     padding-bottom: .75rem;
-    /* background-color: #8bb6f7;
-    border: 1px solid #8bb6f7; */
+    background-color: #8bb6f7;
+    border: 1px solid #8bb6f7; 
     text-align: center;
     cursor: pointer;
     font-size: 15px;
@@ -86,7 +86,7 @@ width: 84%;
 .themed-grid-col2 {
     margin-left: 9%;
     width: 20%;
-    height: 170px;
+    height: 180px;
     /* background-color: #8bb6f7;
     border: 1px solid #8bb6f7; */
     padding-left: 0px;
@@ -98,9 +98,10 @@ width: 84%;
 }
 /*목포집 기본정보 */
 .themed-grid-col3 {
+    margin-top: -10px;
     margin-left: 30%;
     width: 61%;
-    height: 170px;
+    height: 180px;
     position: relative;
     padding-top: .50rem;
     padding-left: .50rem;
