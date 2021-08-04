@@ -36,6 +36,9 @@ font-size:18px}
     left:50%;
     transform: translateX(-50%);
 }
+.area{
+    margin-left: 30%;
+}
 /* search-box*/
 #search-box{
     position: absolute;
@@ -47,7 +50,6 @@ font-size:18px}
     margin-right:150px;
     margin-top: -9px;
 }
-
 
 /* 내위치 */
 .toggle {
