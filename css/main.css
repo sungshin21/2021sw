@@ -272,3 +272,8 @@ footer {
     transition: .4s;
     
 }
+/* 목표, 설명 팝업창  */
+.bulb_icon{
+    cursor: pointer;
+}
+
