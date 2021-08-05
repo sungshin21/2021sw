@@ -283,7 +283,10 @@ footer {
     
 }
 /* 목표, 설명 팝업창  */
+.explanation{
+    margin-top: -35px;
+    margin-left: 50px;
+}
 .bulb_icon{
     cursor: pointer;
 }
-
