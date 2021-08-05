@@ -29,7 +29,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" id="menuicon" class="menubar" viewbox="0 0 16 16" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
               </svg>
-              <div id="sidemenu1">
+            <div id="sidemenu1">
               <div id="menulist1">
                 <!--메뉴바 맛집-->
                 <li id="foods" >먹거리 추천(맛집) </li> 
@@ -269,14 +269,20 @@
                         </ul>
                       </div>
                     </li>
-               </ul></div>
-              </div></div>
-              
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- 목표, 설명 창 -->
 
-            <div class="explanation">
-              <img class="bulb_icon" style="width: auto;" src="/images/question.png" alt="전구아이콘">
-              <div class="page"></div>
-            </div></div>
+              <div class="explanation">
+                  <img onclick="Block()" class="bulb_icon"  src="/images/question.png" alt="전구아이콘">
+                  <div id="page">
+                    <img onclick="None()" class="close_icon" src="/images/close.png" alt="닫기버튼">
+                  </div>
+              </div>
+
 
             <div class="col-4 text-center">
               <!-- 로고 이미지 -->

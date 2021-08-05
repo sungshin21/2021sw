@@ -566,3 +566,16 @@ jeju1El.addEventListener("click", function(){
     sideMenu10El.style.transform='translateX(0%)'
   
 })
+
+    // 설명창 js
+
+function Block(){
+    var page = document.getElementById("page")
+    page.style.display = "block";
+}
+function None(){
+    var page = document.getElementById("page")
+    page.style.display = "none";
+}
+
+
