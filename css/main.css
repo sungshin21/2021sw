@@ -229,7 +229,7 @@ footer {
     transform: translateX(-100%);
     transition: .4s;
 }
-#menulist1,#menulist1-0,#menulist1-1{
+#menulist1,#menulist1-0,#menulist1-1,#menulist1-2,#menulist1-3,#menulist1-4,#menulist1-5,#menulist1-6,#menulist1-7,#menulist1-8,#menulist1-9,#menulist1-10{
     top:50px;
     position: absolute;
     list-style: none;
@@ -245,7 +245,7 @@ footer {
     transition: .4s;
     
 }
-#sidemenu1-1{
+#sidemenu1-1,#sidemenu1-2,#sidemenu1-3,#sidemenu1-4,#sidemenu1-5,#sidemenu1-6,#sidemenu1-7,#sidemenu1-8,#sidemenu1-9,#sidemenu1-10{
     position: fixed;
     top:0px;
     left:0px;
