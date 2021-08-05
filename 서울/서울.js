@@ -15,8 +15,8 @@ window.onload=function() {
     for (var i=m-1;i>=0;i--) {
     var e = E[i];
     e.style.display='none';
-    }
+    
     E[n].style.display='';
     E[o].style.display='';
-    E[p].style.display='';
+    E[p].style.display='';}
     }

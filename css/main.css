@@ -210,3 +210,11 @@ footer {
     opacity:0;
     transition: 0.4s;
 }
+#current2{
+    width: 100px;
+    height: 300px;
+    display: none;
+}
+.dropdown-item:hover > #current2{
+    display: block;
+}

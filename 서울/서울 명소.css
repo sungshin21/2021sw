@@ -118,7 +118,7 @@ color: #000;
 /* 명소 내용부분 */
 .card{
   z-index: 0;
-  align-items: center;
+  /* align-items: center; */
   width: 100%;
   height: 180px;
   margin-top: 25px;
