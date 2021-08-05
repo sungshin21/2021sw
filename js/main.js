@@ -443,126 +443,250 @@ menuEl.addEventListener("click", function(){
     //햄버거바 아이콘 숨기기
     menuEl.style.display='none'
 
-    //사이드 메뉴 나타내기
+    //사이드 메뉴 나타내기(맛집/명소)
     firstEl.style.transform='translateX(0%)'
   
 })
+//맛집 부분
+
 //먹거리 선택자
 const foodsEl=document.getElementById('foods')
-//두번째 사이드 메뉴(지역) 선택자
+//지역리스트 선택자
 const area1El=document.getElementById('sidemenu1-0')
 //먹거리를 클릭(이벤트)하면,
 foodsEl.addEventListener("click", function(){   
-    //사이드 메뉴 나타내기
+    //지역 리스트 나타내기
     area1El.style.transform='translateX(0%)' 
 })
-//먹거리 선택자
+//서울 선택자
 const seoul1El=document.getElementById('서울1')
-//두번째 사이드 메뉴(지역) 선택자
-const sideMenu1El=document.getElementById('sidemenu1-1')
-//먹거리를 클릭(이벤트)하면,
+//지역별 맛집 선택자
+const sideMenu11El=document.getElementById('sidemenu1-1')
+//서울을 클릭(이벤트)하면,
 seoul1El.addEventListener("click", function(){
     
-    //사이드 메뉴 나타내기
-    sideMenu1El.style.transform='translateX(0%)'
+    //지역별 맛집 나타내기
+    sideMenu11El.style.transform='translateX(0%)'
   
 })
-//먹거리 선택자
+//경기 선택자
 const gyeongi1El=document.getElementById('경기1')
-//두번째 사이드 메뉴(지역) 선택자
-const sideMenu2El=document.getElementById('sidemenu1-2')
-//먹거리를 클릭(이벤트)하면,
+//지역별 맛집 선택자
+const sideMenu12El=document.getElementById('sidemenu1-2')
+//경기를 클릭(이벤트)하면,
 gyeongi1El.addEventListener("click", function(){
     
-    //사이드 메뉴 나타내기
-    sideMenu2El.style.transform='translateX(0%)'
+    //지역별 맛집 나타내기
+    sideMenu12El.style.transform='translateX(0%)'
   
 })
-//먹거리 선택자
+//강원 선택자
 const gangwon1El=document.getElementById('강원1')
-//두번째 사이드 메뉴(지역) 선택자
-const sideMenu3El=document.getElementById('sidemenu1-3')
-//먹거리를 클릭(이벤트)하면,
+//지역별 맛집 선택자
+const sideMenu13El=document.getElementById('sidemenu1-3')
+//강원을 클릭(이벤트)하면,
 gangwon1El.addEventListener("click", function(){
     
-    //사이드 메뉴 나타내기
-    sideMenu3El.style.transform='translateX(0%)'
+    //지역별 맛집 나타내기
+    sideMenu13El.style.transform='translateX(0%)'
   
 })
-//먹거리 선택자
+//경북 선택자
 const gyeongbuk1El=document.getElementById('경북1')
-//두번째 사이드 메뉴(지역) 선택자
-const sideMenu4El=document.getElementById('sidemenu1-4')
-//먹거리를 클릭(이벤트)하면,
+//지역별 맛집 선택자
+const sideMenu14El=document.getElementById('sidemenu1-4')
+//경북을 클릭(이벤트)하면,
 gyeongbuk1El.addEventListener("click", function(){
     
-    //사이드 메뉴 나타내기
-    sideMenu4El.style.transform='translateX(0%)'
+    //지역별 맛집 나타내기
+    sideMenu14El.style.transform='translateX(0%)'
   
 })
-//먹거리 선택자
+//경남 선택자
 const gyeongnam1El=document.getElementById('경남1')
-//두번째 사이드 메뉴(지역) 선택자
-const sideMenu5El=document.getElementById('sidemenu1-5')
-//먹거리를 클릭(이벤트)하면,
+//지역별 맛집 선택자
+const sideMenu15El=document.getElementById('sidemenu1-5')
+//경북을 클릭(이벤트)하면,
 gyeongnam1El.addEventListener("click", function(){
     
-    //사이드 메뉴 나타내기
-    sideMenu5El.style.transform='translateX(0%)'
+    //지역별 맛집 나타내기
+    sideMenu15El.style.transform='translateX(0%)'
   
 })
-//먹거리 선택자
+//충북 선택자
 const chungbuk1El=document.getElementById('충북1')
-//두번째 사이드 메뉴(지역) 선택자
-const sideMenu6El=document.getElementById('sidemenu1-6')
-//먹거리를 클릭(이벤트)하면,
+//지역별 맛집 선택자
+const sideMenu16El=document.getElementById('sidemenu1-6')
+//충북을 클릭(이벤트)하면,
 chungbuk1El.addEventListener("click", function(){
     
-    //사이드 메뉴 나타내기
-    sideMenu6El.style.transform='translateX(0%)'
+    //지역별 맛집 나타내기
+    sideMenu16El.style.transform='translateX(0%)'
   
 })
-//먹거리 선택자
+//충남 선택자
 const chungnum1El=document.getElementById('충남1')
-//두번째 사이드 메뉴(지역) 선택자
-const sideMenu7El=document.getElementById('sidemenu1-7')
-//먹거리를 클릭(이벤트)하면,
+//지역별 맛집 선택자
+const sideMenu17El=document.getElementById('sidemenu1-7')
+//충남을 클릭(이벤트)하면,
 chungnum1El.addEventListener("click", function(){
     
-    //사이드 메뉴 나타내기
-    sideMenu7El.style.transform='translateX(0%)'
+    //지역별 맛집 나타내기
+    sideMenu17El.style.transform='translateX(0%)'
   
 })
-//먹거리 선택자
+//전북 선택자
 const jeonbuk1El=document.getElementById('전북1')
-//두번째 사이드 메뉴(지역) 선택자
-const sideMenu8El=document.getElementById('sidemenu1-8')
-//먹거리를 클릭(이벤트)하면,
+//지역별 맛집 선택자
+const sideMenu18El=document.getElementById('sidemenu1-8')
+//전북을 클릭(이벤트)하면,
 jeonbuk1El.addEventListener("click", function(){
     
-    //사이드 메뉴 나타내기
-    sideMenu8El.style.transform='translateX(0%)'
+    //지역별 맛집 나타내기
+    sideMenu18El.style.transform='translateX(0%)'
   
 })
-//먹거리 선택자
+//전남 선택자
 const jeonnum1El=document.getElementById('전남1')
-//두번째 사이드 메뉴(지역) 선택자
-const sideMenu9El=document.getElementById('sidemenu1-9')
-//먹거리를 클릭(이벤트)하면,
+//지역별 맛집 선택자
+const sideMenu19El=document.getElementById('sidemenu1-9')
+//전남을 클릭(이벤트)하면,
 jeonnum1El.addEventListener("click", function(){
     
-    //사이드 메뉴 나타내기
-    sideMenu9El.style.transform='translateX(0%)'
+    //지역별 맛집 나타내기
+    sideMenu19El.style.transform='translateX(0%)'
   
 })
-//먹거리 선택자
+//제주 선택자
 const jeju1El=document.getElementById('제주1')
-//두번째 사이드 메뉴(지역) 선택자
-const sideMenu10El=document.getElementById('sidemenu1-10')
-//먹거리를 클릭(이벤트)하면,
+//지역별 맛집 선택자
+const sideMenu110El=document.getElementById('sidemenu1-10')
+//제주를 클릭(이벤트)하면,
 jeju1El.addEventListener("click", function(){
     
-    //사이드 메뉴 나타내기
-    sideMenu10El.style.transform='translateX(0%)'
+    //지역별 맛집 나타내기
+    sideMenu110El.style.transform='translateX(0%)'
+  
+})
+
+
+//명소 부분
+//먹거리 선택자
+const placesEl=document.getElementById('places')
+//지역리스트 선택자
+const area2El=document.getElementById('sidemenu2-0')
+//명소를 클릭(이벤트)하면,
+placesEl.addEventListener("click", function(){   
+    //지역 리스트 나타내기
+    area2El.style.transform='translateX(0%)' 
+})
+//서울 선택자
+const seoul2El=document.getElementById('서울2')
+//지역별 명소 선택자
+const sideMenu21El=document.getElementById('sidemenu2-1')
+//서울을 클릭(이벤트)하면,
+seoul2El.addEventListener("click", function(){
+    
+    //지역별 맛집 나타내기
+    sideMenu21El.style.transform='translateX(0%)'
+  
+})
+//경기 선택자
+const gyeongi2El=document.getElementById('경기2')
+//지역별 명소 선택자
+const sideMenu22El=document.getElementById('sidemenu2-2')
+//경기를 클릭(이벤트)하면,
+gyeongi2El.addEventListener("click", function(){
+    
+    //지역별 명소 나타내기
+    sideMenu22El.style.transform='translateX(0%)'
+  
+})
+//강원 선택자
+const gangwon2El=document.getElementById('강원2')
+//지역별 명소 선택자
+const sideMenu23El=document.getElementById('sidemenu2-3')
+//강원을 클릭(이벤트)하면,
+gangwon2El.addEventListener("click", function(){
+    
+    //지역별 명소 나타내기
+    sideMenu23El.style.transform='translateX(0%)'
+  
+})
+//경북 선택자
+const gyeongbuk2El=document.getElementById('경북2')
+//지역별 명소 선택자
+const sideMenu24El=document.getElementById('sidemenu2-4')
+//경북을 클릭(이벤트)하면,
+gyeongbuk2El.addEventListener("click", function(){
+    
+    //지역별 명소 나타내기
+    sideMenu24El.style.transform='translateX(0%)'
+  
+})
+//경남 선택자
+const gyeongnam2El=document.getElementById('경남2')
+//지역별 명소 선택자
+const sideMenu25El=document.getElementById('sidemenu2-5')
+//경북을 클릭(이벤트)하면,
+gyeongnam2El.addEventListener("click", function(){
+    
+    //지역별 명소 나타내기
+    sideMenu25El.style.transform='translateX(0%)'
+  
+})
+//충북 선택자
+const chungbuk2El=document.getElementById('충북2')
+//지역별 명소 선택자
+const sideMenu26El=document.getElementById('sidemenu2-6')
+//충북을 클릭(이벤트)하면,
+chungbuk2El.addEventListener("click", function(){
+    
+    //지역별 명소 나타내기
+    sideMenu26El.style.transform='translateX(0%)'
+  
+})
+//충남 선택자
+const chungnum2El=document.getElementById('충남2')
+//지역별 명소 선택자
+const sideMenu27El=document.getElementById('sidemenu2-7')
+//충남을 클릭(이벤트)하면,
+chungnum2El.addEventListener("click", function(){
+    
+    //지역별 명소 나타내기
+    sideMenu27El.style.transform='translateX(0%)'
+  
+})
+//전북 선택자
+const jeonbuk2El=document.getElementById('전북2')
+//지역별 명소 선택자
+const sideMenu28El=document.getElementById('sidemenu2-8')
+//전북을 클릭(이벤트)하면,
+jeonbuk2El.addEventListener("click", function(){
+    
+    //지역별 명소 나타내기
+    sideMenu28El.style.transform='translateX(0%)'
+  
+})
+//전남 선택자
+const jeonnum2El=document.getElementById('전남2')
+//지역별 명소 선택자
+const sideMenu29El=document.getElementById('sidemenu2-9')
+//전남을 클릭(이벤트)하면,
+jeonnum2El.addEventListener("click", function(){
+    
+    //지역별 명소 나타내기
+    sideMenu29El.style.transform='translateX(0%)'
+  
+})
+//제주 선택자
+const jeju2El=document.getElementById('제주2')
+//지역별 명소 선택자
+const sideMenu210El=document.getElementById('sidemenu2-10')
+//제주를 클릭(이벤트)하면,
+jeju2El.addEventListener("click", function(){
+    
+    //지역별 명소 나타내기
+    sideMenu210El.style.transform='translateX(0%)'
   
 })
