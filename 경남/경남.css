@@ -114,7 +114,15 @@ a:not(.link-secondary-main){
     border: 100px solid #8bb6f7;
     align-items: center;
   }
-  
+  .home_title{
+    position: absolute;
+   margin-top:-50px;
+   margin-bottom: 50px;
+   margin-left: 0%;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   text-decoration: underline;
+  }
   /* 맛집 내용부분 */
   .card{
     z-index: 0;
