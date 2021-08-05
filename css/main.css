@@ -261,3 +261,14 @@ footer {
     position: absolute;
     list-style: none;
 }
+#sidemenu2-1,#sidemenu2-2,#sidemenu2-3,#sidemenu2-4,#sidemenu2-5,#sidemenu2-6,#sidemenu2-7,#sidemenu2-8,#sidemenu2-9,#sidemenu2-10{
+    position: fixed;
+    top:0px;
+    left:0px;
+    height: 100vh;
+    width:250px;
+    background-color: rgb(255, 174, 0); 
+    transform: translateX(-100%);
+    transition: .4s;
+    
+}
