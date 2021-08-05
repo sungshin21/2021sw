@@ -234,7 +234,7 @@ footer {
     position: absolute;
     list-style: none;
 }
-#sidemenu1-0{
+#sidemenu1-0,#sidemenu2-0{
     position: fixed;
     top:0px;
     left:0px;
@@ -255,4 +255,9 @@ footer {
     transform: translateX(-100%);
     transition: .4s;
     
+}
+#menulist2-0,#menulist2-1,#menulist2-2,#menulist2-3,#menulist2-4,#menulist2-5,#menulist2-6,#menulist2-7,#menulist2-8,#menulist2-9,#menulist2-10{
+    top:50px;
+    position: absolute;
+    list-style: none;
 }
