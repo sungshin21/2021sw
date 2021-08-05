@@ -7,15 +7,16 @@
 a{text-decoration: none;
 z-index: 5;}
 
-.nav-scroller a:hover{text-decoration: underline;
-color:#000;
-font-size:18px}
+.nav-scroller a:hover{
+    text-decoration: underline;
+    color:#000;
+    font-size:18px;
+}
 
 .text-center{
     font-family: "Do Hyeon", serif;
     font-size: 30px;
-    font-weight: 500;
-    
+    font-weight: 500;  
 }
 
 /* 메뉴바 */
@@ -203,10 +204,10 @@ footer {
     z-index: 5;
    
     /* 블록 속성 만들기*/
-     display: inline-block; 
-     position:fixed;
-     bottom:20px;
-     right:3%;
+    display: inline-block; 
+    position:fixed;
+    bottom:20px;
+    right:3%;
     opacity:0;
     transition: 0.4s;
 }
@@ -219,6 +220,15 @@ footer {
     display: block;
 }
 /* 메뉴 연습 중 */
+/*뒤로가기 버튼*/
+.back{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
 #sidemenu1{
     position: fixed;
     top:0px;

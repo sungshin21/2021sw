@@ -106,23 +106,22 @@
   .background{
     z-index: -1;
     position: flex;
-    margin-left: 8%;
+    margin-left: 7.3%;
     margin-right: 8%;
-    width: 84%;
+    width: 85.5%;
     height: 100%;
     background-color: #8bb6f7;
     border: 100px solid #8bb6f7;
-    text-align: center;
     align-items: center;
   }
   .home_title{
     position: absolute;
-   margin-top:-50px;
-   margin-bottom: 50px;
-   margin-left: 0%;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 300;
-   text-decoration: underline;
+    margin-top:-50px;
+    margin-bottom: 50px;
+    margin-left: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
   }
   /* 맛집 내용부분 */
   .card{
@@ -130,6 +129,9 @@
     width: 100%;
     height: 180px;
     margin-top: 25px;
+    cursor: pointer;
+    border: 1px solid #8bb6f7;
+    font-family: 'Nanum Gothic', sans-serif;
   }
     /* 내용 hover기능 */
     .card:hover{
