@@ -103,7 +103,6 @@ color: #000;
 }
 /* home/맛집/명소 배경 */
 .background{
-
   z-index: -1;
   position: flex;
   margin-left: 8%;
