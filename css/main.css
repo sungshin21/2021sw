@@ -232,6 +232,7 @@ footer {
 #menulist1,#menulist1-0,#menulist1-1{
     top:50px;
     position: absolute;
+    list-style: none;
 }
 #sidemenu1-0{
     position: fixed;
