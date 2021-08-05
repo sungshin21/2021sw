@@ -109,13 +109,12 @@ color: #000;
 .background{
   z-index: -1;
   position: flex;
-  margin-left: 8%;
+  margin-left: 7.3%;
   margin-right: 8%;
-  width: 84%;
+  width: 85.5%;
   height: 100%;
   background-color: #8bb6f7;
   border: 100px solid #8bb6f7;
-  text-align: center;
   align-items: center;
 }
 .home_title{
