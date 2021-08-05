@@ -430,3 +430,40 @@ window.addEventListener("scroll", function () {
 //       alert('GPS를 지원하지 않습니다');
 //     }
 //   }
+//연습연습중
+//햄버거 바 아이콘 선택자
+const menuEl=document.getElementById('menuicon')
+//닫는 아이콘 선택자
+// const menuCloseEl=document.getElementById('btn--close')
+//사이드 네비게이션 선택자
+const firstEl=document.getElementById('sidemenu1')
+
+//햄버거 바 아이콘을 클릭(이벤트)하면,
+menuEl.addEventListener("click", function(){
+    //햄버거바 아이콘 숨기기
+    menuEl.style.display='none'
+
+    //사이드 메뉴 나타내기
+    firstEl.style.transform='translateX(0%)'
+  
+})
+//먹거리 선택자
+const foodsEl=document.getElementById('foods')
+//두번째 사이드 메뉴(지역) 선택자
+const area1El=document.getElementById('sidemenu1-0')
+//먹거리를 클릭(이벤트)하면,
+foodsEl.addEventListener("click", function(){   
+    //사이드 메뉴 나타내기
+    area1El.style.transform='translateX(0%)' 
+})
+//먹거리 선택자
+const seoul1El=document.getElementById('서울1')
+//두번째 사이드 메뉴(지역) 선택자
+const sideMenu1El=document.getElementById('sidemenu1-1')
+//먹거리를 클릭(이벤트)하면,
+seoul1El.addEventListener("click", function(){
+    
+    //사이드 메뉴 나타내기
+    sideMenu1El.style.transform='translateX(0%)'
+  
+})

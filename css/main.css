@@ -218,3 +218,40 @@ footer {
 .dropdown-item:hover > #current2{
     display: block;
 }
+/* 메뉴 연습 중 */
+#sidemenu1{
+    position: fixed;
+    top:0px;
+    left:0px;
+    height: 100vh;
+    width:250px;
+    background-color: aqua;
+    transform: translateX(-100%);
+    transition: .4s;
+}
+#menulist1,#menulist1-0,#menulist1-1{
+    top:50px;
+    position: absolute;
+}
+#sidemenu1-0{
+    position: fixed;
+    top:0px;
+    left:0px;
+    height: 100vh;
+    width:250px;
+    background-color: rgb(200, 255, 0); 
+    transform: translateX(-100%);
+    transition: .4s;
+    
+}
+#sidemenu1-1{
+    position: fixed;
+    top:0px;
+    left:0px;
+    height: 100vh;
+    width:250px;
+    background-color: rgb(255, 174, 0); 
+    transform: translateX(-100%);
+    transition: .4s;
+    
+}
