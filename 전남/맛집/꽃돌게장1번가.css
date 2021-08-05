@@ -108,8 +108,8 @@ width: 84%;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 400;
     padding-bottom: .50rem;
-    /* background-color: #8bb6f7;
-    border: 1px solid #8bb6f7; */
+    background-color: #8bb6f7;
+    border: 1px solid #8bb6f7;
     text-align: left;
     cursor: pointer;
     font-size: 15px;
