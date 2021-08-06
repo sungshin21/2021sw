@@ -219,6 +219,7 @@ font-size:18px}
 
 /* 리뷰 */
 /* 리뷰 참여하기 누르는 박스*/
+
 #review-item{
     left: 20%;
     
@@ -262,7 +263,7 @@ cursor: pointer;}
     border-radius: 10px;
     width: 60%;
     z-index: 999;
-    height: 600px;
+    height: 650px;
     align-items: center; 
     position: absolute;
     text-align: left;
@@ -286,6 +287,12 @@ nav#outside__menu{
 }
 
 /* 리뷰 안 내용 */
+/* 닉네임 설정하기 리뷰 */
+.form-name{
+    margin-top: -5.5%;
+    margin-left: 20%;
+    height: 25px;
+}
 .review-contentname1/* 리뷰c참여하기*/{
     margin-left: 5%;
     color: rgb(0, 17, 255);
