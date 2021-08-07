@@ -456,6 +456,15 @@ const area1El=document.getElementById('sidemenu1-0')
 foodsEl.addEventListener("click", function(){   
     //지역 리스트 나타내기
     sideMenu11El.style.transform='translateX(-100%)'
+    sideMenu12El.style.transform='translateX(-100%)'
+    sideMenu13El.style.transform='translateX(-100%)'
+    sideMenu14El.style.transform='translateX(-100%)'
+    sideMenu15El.style.transform='translateX(-100%)'
+    sideMenu16El.style.transform='translateX(-100%)'
+    sideMenu17El.style.transform='translateX(-100%)'
+    sideMenu18El.style.transform='translateX(-100%)'
+    sideMenu19El.style.transform='translateX(-100%)'
+    sideMenu110El.style.transform='translateX(-100%)'
     area1El.style.transform='translateX(0%)' 
 })
 
@@ -694,6 +703,15 @@ jeju2El.addEventListener("click", function(){
 //뒤로 가기 버튼 만들기
 const previous1El=document.getElementById('previous1')
 const previous21El=document.getElementById('previous2-1')
+const previous22El=document.getElementById('previous2-2')
+const previous23El=document.getElementById('previous2-3')
+const previous24El=document.getElementById('previous2-4')
+const previous25El=document.getElementById('previous2-5')
+const previous26El=document.getElementById('previous2-6')
+const previous27El=document.getElementById('previous2-7')
+const previous28El=document.getElementById('previous2-8')
+const previous29El=document.getElementById('previous2-9')
+const previous210El=document.getElementById('previous2-10')
 
 previous1El.addEventListener("click", function(){
     area1El.style.transform='translateX(-100%)'
@@ -704,11 +722,72 @@ previous1El.addEventListener("click", function(){
 previous21El.addEventListener("click", function(){
     sideMenu11El.style.transform='translateX(-100%)'
     area1El.style.transform='translateX(-100%)'
-    firstEl.style.transform='translateX(-100%)'
-
-    
-  
+    firstEl.style.transform='translateX(-100%)'   
 })
+previous22El.addEventListener("click", function(){
+    sideMenu12El.style.transform='translateX(-100%)'
+    area1El.style.transform='translateX(-100%)'
+    firstEl.style.transform='translateX(-100%)'   
+})
+previous23El.addEventListener("click", function(){
+    sideMenu13El.style.transform='translateX(-100%)'
+    area1El.style.transform='translateX(-100%)'
+    firstEl.style.transform='translateX(-100%)'   
+})
+previous24El.addEventListener("click", function(){
+    sideMenu14El.style.transform='translateX(-100%)'
+    area1El.style.transform='translateX(-100%)'
+    firstEl.style.transform='translateX(-100%)'   
+})
+previous25El.addEventListener("click", function(){
+    sideMenu15El.style.transform='translateX(-100%)'
+    area1El.style.transform='translateX(-100%)'
+    firstEl.style.transform='translateX(-100%)'   
+})
+previous21El.addEventListener("click", function(){
+    sideMenu11El.style.transform='translateX(-100%)'
+    area1El.style.transform='translateX(-100%)'
+    firstEl.style.transform='translateX(-100%)'   
+})
+previous26El.addEventListener("click", function(){
+    sideMenu16El.style.transform='translateX(-100%)'
+    area1El.style.transform='translateX(-100%)'
+    firstEl.style.transform='translateX(-100%)'   
+})
+previous27El.addEventListener("click", function(){
+    sideMenu17El.style.transform='translateX(-100%)'
+    area1El.style.transform='translateX(-100%)'
+    firstEl.style.transform='translateX(-100%)'   
+})
+previous28El.addEventListener("click", function(){
+    sideMenu18El.style.transform='translateX(-100%)'
+    area1El.style.transform='translateX(-100%)'
+    firstEl.style.transform='translateX(-100%)'   
+})
+previous29El.addEventListener("click", function(){
+    sideMenu19El.style.transform='translateX(-100%)'
+    area1El.style.transform='translateX(-100%)'
+    firstEl.style.transform='translateX(-100%)'   
+})
+previous210El.addEventListener("click", function(){
+    sideMenu110El.style.transform='translateX(-100%)'
+    area1El.style.transform='translateX(-100%)'
+    firstEl.style.transform='translateX(-100%)'   
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // 설명창 js
 
 function Block(){
