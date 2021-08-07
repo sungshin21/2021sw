@@ -202,7 +202,7 @@ font-size:18px}
 #distance{
     position: relative;
     z-index: 5;
-    margin-left: calc(9% + 450px);
+    margin-left: calc(9% + 350px);
     margin-top:-90px;
     width: 500px;
     height: 30px;
