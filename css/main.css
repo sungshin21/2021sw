@@ -235,14 +235,16 @@ footer {
     left:0px;
     height: 100vh;
     width:250px;
-    background-color: aqua;
+    background-color: #8bb6f7;
     transform: translateX(-100%);
     transition: .4s;
+    z-index: 10;
 }
 #menulist1,#menulist1-0,#menulist1-1,#menulist1-2,#menulist1-3,#menulist1-4,#menulist1-5,#menulist1-6,#menulist1-7,#menulist1-8,#menulist1-9,#menulist1-10{
     top:50px;
     position: absolute;
     list-style: none;
+
 }
 #sidemenu1-0,#sidemenu2-0{
     position: fixed;
@@ -250,10 +252,10 @@ footer {
     left:0px;
     height: 100vh;
     width:250px;
-    background-color: rgb(200, 255, 0); 
+    background-color: #8bb6f7; 
     transform: translateX(-100%);
     transition: .4s;
-    
+    z-index: 10;
 }
 #sidemenu1-1,#sidemenu1-2,#sidemenu1-3,#sidemenu1-4,#sidemenu1-5,#sidemenu1-6,#sidemenu1-7,#sidemenu1-8,#sidemenu1-9,#sidemenu1-10{
     position: fixed;
@@ -261,10 +263,10 @@ footer {
     left:0px;
     height: 100vh;
     width:250px;
-    background-color: rgb(255, 174, 0); 
+    background-color: #8bb6f7; 
     transform: translateX(-100%);
     transition: .4s;
-    
+    z-index: 10;
 }
 #menulist2-0,#menulist2-1,#menulist2-2,#menulist2-3,#menulist2-4,#menulist2-5,#menulist2-6,#menulist2-7,#menulist2-8,#menulist2-9,#menulist2-10{
     top:50px;
@@ -277,7 +279,7 @@ footer {
     left:0px;
     height: 100vh;
     width:250px;
-    background-color: rgb(255, 174, 0); 
+    background-color: #8bb6f7; 
     transform: translateX(-100%);
     transition: .4s;
     
