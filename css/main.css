@@ -4,8 +4,11 @@
     height: 50px;
 }
 
-a{text-decoration: none;
-z-index: 5;}
+a{
+    text-decoration: none;
+    z-index: 5;
+    color: black;
+}
 
 .nav-scroller a:hover{
     text-decoration: underline;
@@ -229,13 +232,16 @@ footer {
 }
 /*뒤로가기 버튼*/
 .back{
-    width: 20px;
-    height: 20px;
-    margin-top: 5px;
-    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    margin-top: -23px;
+    margin-left: -10px;
     cursor: pointer;
 }
-
+.previous{
+    width: 25px;
+    height: 25px;
+}
 #sidemenu1{
     position: fixed;
     top:0px;
@@ -247,11 +253,21 @@ footer {
     transition: .4s;
     z-index: 10;
 }
+.sidemenu1-header{
+    position: block;
+    padding: 25px;
+    width: 250px;
+    background-color: #5194f8b7;
+    transition: .4s;
+    z-index: 10;
+}
 #menulist1,#menulist1-0,#menulist1-1,#menulist1-2,#menulist1-3,#menulist1-4,#menulist1-5,#menulist1-6,#menulist1-7,#menulist1-8,#menulist1-9,#menulist1-10{
-    top:50px;
+    top:65px;
     position: absolute;
     list-style: none;
-
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
 }
 #sidemenu1-0,#sidemenu2-0{
     position: fixed;
@@ -279,6 +295,7 @@ footer {
     top:50px;
     position: absolute;
     list-style: none;
+
 }
 #sidemenu2-1,#sidemenu2-2,#sidemenu2-3,#sidemenu2-4,#sidemenu2-5,#sidemenu2-6,#sidemenu2-7,#sidemenu2-8,#sidemenu2-9,#sidemenu2-10{
     position: fixed;
@@ -290,6 +307,10 @@ footer {
     transform: translateX(-100%);
     transition: .4s;
     
+}
+.arrow-icon{
+    position: absolute;
+    margin-left: 10px;
 }
 /* 목표, 설명 팝업창  */
 .explanation{
