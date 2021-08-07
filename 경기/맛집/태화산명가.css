@@ -286,6 +286,11 @@ nav#outside__menu{
 }
 
 /* 리뷰 안 내용 */
+.form-name{
+    margin-top: -5.5%;
+    margin-left: 20%;
+    height: 25px;
+}
 .review-contentname1/* 리뷰c참여하기*/{
     margin-left: 5%;
     color: rgb(0, 17, 255);
