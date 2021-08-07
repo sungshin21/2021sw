@@ -335,6 +335,12 @@ nav#outside__menu{
     padding: 10px;
     box-sizing: border-box;
 }
+/*닉네임 설정하기*/
+.form-name{
+    margin-top: -5.5%;
+    margin-left: 20%;
+    height: 25px;
+}
 /*별점?*/
 .rating{
     margin-left: 5%;
