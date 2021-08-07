@@ -220,6 +220,13 @@ footer {
     display: block;
 }
 /* 메뉴 연습 중 */
+#foods{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#places{
+    margin-left: 10px;
+}
 /*뒤로가기 버튼*/
 .back{
     width: 20px;
