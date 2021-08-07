@@ -252,6 +252,9 @@ footer {
     transform: translateX(-100%);
     transition: .4s;
     z-index: 10;
+    font-family: 'Nanum Gothic', sans-serif;
+     font-size: 18px;
+    font-weight: 400;
 }
 .sidemenu1-header{
     position: block;
@@ -265,9 +268,9 @@ footer {
     top:65px;
     position: absolute;
     list-style: none;
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 40px;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 #sidemenu1-0,#sidemenu2-0{
     position: fixed;
