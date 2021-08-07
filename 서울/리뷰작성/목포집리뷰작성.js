@@ -1,21 +1,21 @@
-// 아이콘 선택자
-const menuOpenEl = document.getElementById('btn--open')
-// 닫는 아이콘 선택자
-const menuCloseEl = document.getElementById('btn--close')
-// 사이드 네비게이션 선택자
-const sideMenuEl = document.getElementById('pop')
-//outside_menu 영역 선택자
-const outsideMenuEl=document.getElementById('outside__menu')
+// // 아이콘 선택자
+// const menuOpenEl = document.getElementById('btn--open')
+// // 닫는 아이콘 선택자
+// const menuCloseEl = document.getElementById('btn--close')
+// // 사이드 네비게이션 선택자
+// const sideMenuEl = document.getElementById('pop')
+// //outside_menu 영역 선택자
+// const outsideMenuEl=document.getElementById('outside__menu')
 
 //누구와 함께하였는지 클릭할때 사용
 //가족 선택 영역자
-const withfamilyEl=document.getElementsByClassName('btn-outline-secondary')[3];
+const withfamilyEl=document.getElementsByClassName('btn-outline-secondary')[0];
 //친구 선택 영역자
-const withfriendsEl=document.getElementsByClassName('btn-outline-secondary')[4];
+const withfriendsEl=document.getElementsByClassName('btn-outline-secondary')[1];
 //연인 선택 영역자
-const withloverEl=document.getElementsByClassName('btn-outline-secondary')[5];
+const withloverEl=document.getElementsByClassName('btn-outline-secondary')[2];
 //기타 선택 영역자
-const withothersEl=document.getElementsByClassName('btn-outline-secondary')[6];
+const withothersEl=document.getElementsByClassName('btn-outline-secondary')[3];
 // 가족 선택에 클릭 이벤트가 발생하면,
 withfamilyEl.addEventListener("click", function() {
     // 배경색 바꾸기
