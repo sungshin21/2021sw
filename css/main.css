@@ -242,6 +242,7 @@ footer {
     width: 25px;
     height: 25px;
 }
+/*메뉴바의 지역 창*/
 #sidemenu1{
     position: fixed;
     top:0px;
@@ -264,6 +265,7 @@ footer {
     transition: .4s;
     z-index: 10;
 }
+/*메뉴바의 지역별 맛집 창*/
 #menulist1,#menulist1-0,#menulist1-1,#menulist1-2,#menulist1-3,#menulist1-4,#menulist1-5,#menulist1-6,#menulist1-7,#menulist1-8,#menulist1-9,#menulist1-10{
     top:65px;
     position: absolute;
