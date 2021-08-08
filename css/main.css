@@ -224,17 +224,17 @@ footer {
 }
 /* 메뉴 연습 중 */
 #foods{
-    margin-left: 30px;
+    margin-left: 3px;
     margin-bottom: 10px;
 }
 #places{
-    margin-left: 30px;
+    margin-left: 3px;
 }
 /*뒤로가기 버튼*/
 .back{
     width: 10px;
     height: 10px;
-    margin-top: -23px;
+    margin-top: -18px;
     margin-left: -10px;
     cursor: pointer;
 }
