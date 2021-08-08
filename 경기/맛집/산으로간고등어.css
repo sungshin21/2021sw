@@ -58,13 +58,13 @@ margin-right: 8%;
 width: 84%;
 }
 
-/*서울> 맛집> 목포집*/
+/*경기> 맛집> 산으로간고등어*/
 .route{
     margin-left: 9%;
     width: 82%;
 }
 
-/*목포집 타이틀 */
+/*산으로간고등어 타이틀 */
 .themed-grid-col1 {
     margin-left: 9%;
     width: 82%;
@@ -82,7 +82,7 @@ width: 84%;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
 }
-/*목포집 이미지 */
+/*산으로간고등어 이미지 */
 .themed-grid-col2 {
     margin-left: 9%;
     width: 20%;
