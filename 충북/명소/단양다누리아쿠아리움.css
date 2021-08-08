@@ -58,13 +58,13 @@ margin-right: 8%;
 width: 84%;
 }
 
-/*서울> 맛집> 목포집*/
+/*충북> 명소> 단양다누리아쿠아리움*/
 .route{
     margin-left: 9%;
     width: 82%;
 }
 
-/*목포집 타이틀 */
+/*단양다누리아쿠아리움 타이틀 */
 .themed-grid-col1 {
     margin-left: 9%;
     width: 82%;
@@ -82,7 +82,7 @@ width: 84%;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
 }
-/*목포집 이미지 */
+/*단양다누리아쿠아리움 이미지 */
 .themed-grid-col2 {
     margin-left: 9%;
     width: 20%;
@@ -96,7 +96,7 @@ width: 84%;
     color: #000;
     border-radius: 20px;
 }
-/*목포집 기본정보 */
+/*단양다누리아쿠아리움 기본정보 */
 .themed-grid-col3 {
     margin-top: -35px;
     margin-left: 30%;
@@ -175,7 +175,7 @@ font-size:18px}
     margin-right:150px;
     margin-top: -9px;
 }
-/* 서울>맛집>목포집 */
+/* 충북>명소>단양다누리아쿠아리움 */
 .breadcrumb{
     margin-top: 20px;
     font-size: 25px;
@@ -204,7 +204,7 @@ font-size:18px}
     z-index: 5;
     margin-left: calc(9% + 450px);
     margin-top:-90px;
-    width: 400px;
+    width: 480px;
     height: 30px;
     background-color: #fff;
     border: 1px solid #e0e0e0;
