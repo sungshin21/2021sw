@@ -446,6 +446,7 @@ menuEl.addEventListener("click", function(){
     firstEl.style.transform='translateX(0%)'
   
 })
+
 //맛집 부분
 
 //먹거리 선택자
