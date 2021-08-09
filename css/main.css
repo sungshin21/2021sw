@@ -98,7 +98,7 @@ a{
     width:400px;
     left: 10%;
    /* margin-left: -400px; */
-    top:130px;
+    top:200px;
    
 }
 .land{
@@ -177,11 +177,11 @@ a{
 
 /* footer */
 footer {
-    position: relative;
+    position: absolute;
     height: 100px;
     width: 100%;
     background: #cccccc;
-    top:1600px
+    top:1800px
 }
 
 
@@ -356,9 +356,26 @@ footer {
     opacity: 1;
 }
 /* 코로나지도 옆에 신규확진자 */
-#corona-map{
-    top:600px;
+ #corona-map{
+    top:320px;
     height:800px;
     width:100%;
-    background-color: aqua;
+    position: absolute;
+   
+} 
+/* 코로나 차트 */
+ #coronachart{
+    top:0px;
+    height:800px;
+    width:25%;
+    left:60%;
+    position:absolute;
+    
+} 
+#coronachart table{
+    margin-top: 20px;
+    text-align: center;
 }
+#coronachart table thead{background-color: black;
+color:#fff}
+

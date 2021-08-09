@@ -22,6 +22,8 @@
     <!--js jquery 가져오도록 설정-->
     <script src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+   
+
   </head>
 
   <body>
@@ -673,24 +675,74 @@
   <div class="material-icons-outlined" id="scrollToTop">
     arrow_circle_up
   </div>  
-  <div id="corona-map">
-    <div class="seoul-corona"></div>
-    <div class="gyeonggi-corona"></div>
-    <div class="gangwon-corona"></div>
-    <div class="gyeongbuk-corona"></div>
-    <div class="gyeongnam-corona"></div>
-    <div class="chungbuk-corona"></div>
-    <div class="chungnam-corona"></div>
-    <div class="jeonbuk-corona"></div>
-    <div class="jeonnam-corona"></div>
-    <div class="jeju-corona"></div>
-    <div class="incheon-corona"></div>
-    <div class="gwangju-corona"></div>
-    <div class="busan-corona"></div>
-    <div class="daegu-corona"></div>
-    <div class="ulsan-corona"></div>
-    <div class="sejong-corona"></div>
-  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+   <div id="corona-map">
+    <div id="coronachart">
+      <table class="table table-bordered table-sm">
+         <thead >
+          <tr> <th>지역</th>
+                <th>신규확진자수</th> 
+          </tr> </thead> 
+          <tbody> 
+          <tr> <td >서울</td> 
+                 <td><div class="seoul-corona"></div></td> 
+          </tr> 
+          <tr> <td>경기</td> 
+              <td><div class="gyeonggi-corona"></div></td> 
+          </tr> 
+          <tr> <td>인천</td> 
+            <td><div class="incheon-corona"></div></td> 
+         </tr> 
+          <tr> <td>강원</td> 
+            <td><div class="gangwon-corona"></div></td> 
+          </tr> 
+         <tr> <td>경북</td> 
+            <td><div class="gyeongbuk-corona"></div></td> 
+         </tr> 
+         <tr> <td>대구</td> 
+          <td><div class="daegu-corona"></div></td> 
+        </tr> 
+        <tr> <td>경남</td> 
+          <td><div class="gyeongnam-corona"></div></td> 
+        </tr> 
+        <tr> <td>부산</td> 
+          <td><div class="busan-corona"></div></td> 
+        </tr> 
+        <tr> <td>울산</td> 
+          <td> <div class="ulsan-corona"></div></td> 
+        </tr> 
+        <tr> <td>충북</td> 
+          <td> <div class="chungbuk-corona"></div></td> 
+        </tr> 
+        <tr> <td>충남</td> 
+          <td><div class="chungnam-corona"></div></td> 
+        </tr> 
+        <tr> <td>세종</td> 
+          <td>  <div class="sejong-corona"></div></td> 
+        </tr> 
+        <tr> <td>대전</td> 
+          <td> <div class="daejeon-corona"></div></td> 
+        </tr> 
+        <tr> <td>전북</td> 
+          <td>   <div class="jeonbuk-corona"></div></td> 
+        </tr> 
+        <tr> <td>전남</td> 
+          <td> <div class="jeonnam-corona"></div></td> 
+        </tr> 
+        <tr> <td>광주</td> 
+          <td>   <div class="gwangju-corona"></div></td> 
+        </tr> 
+        <tr> <td>제주</td> 
+          <td> <div class="jeju-corona"></div></td> 
+        </tr> 
+      </tbody> </table>
+    </div>
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -719,8 +771,7 @@
               $( "div.daegu-corona" ).append( "<strong>"+ msg.daegu.newCase+"</strong>" );
               $( "div.ulsan-corona" ).append( "<strong>"+ msg.ulsan.newCase+"</strong>" );
               $( "div.sejong-corona" ).append( "<strong>"+ msg.sejong.newCase+"</strong>" );
-           
-
+              $( "div.daejeon-corona" ).append( "<strong>"+ msg.daejeon.newCase+"</strong>" );
           });
           
   </script>
