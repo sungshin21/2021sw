@@ -445,6 +445,30 @@
                   <li class="card_sliding" id ="third"><p></p></li>
                 </ul>
               </div>
+              <script>
+                $.ajax({
+                    method: "GET",
+                    url: "https://api.corona-19.kr/korea/?serviceKey=7TNc6tdHG3bajrI9VBeAoUPpgCMO8Ww2u",
+                })
+                    .done(function (msg) {
+                        console.log(msg);
+        
+                    $( "li.card_sliding" ).append( "<strong>"+ msg.city1n.city1p+"</strong>" );
+                    $( "p" ).append( "<strong>"+ msg.city2n.city2p+"</strong>" );
+                    $( "p" ).append( "<strong>"+ msg.city3n+"</strong>" );
+                    $( "p" ).append( "<strong>"+ msg.city4n+"</strong>" );
+                    $( "p" ).append( "<strong>"+ msg.city5n+"</strong>" );
+                    $( "p" ).append( "<strong>"+ msg.city1p+"</strong>" );
+                    $( "p" ).append( "<strong>"+ msg.city2p+"</strong>" );
+                    $( "p" ).append( "<strong>"+ msg.city3p+"</strong>" );
+                    $( "p" ).append( "<strong>"+ msg.city4p+"</strong>" );
+                    $( "p" ).append( "<strong>"+ msg.city5p+"</strong>" );
+        
+                    });
+        
+        
+            </script>
+        
 
 
               <!--로그인, 회원가입-->
