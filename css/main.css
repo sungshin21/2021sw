@@ -355,3 +355,10 @@ footer {
 .close_icon:hover{
     opacity: 1;
 }
+/* 코로나지도 옆에 신규확진자 */
+#corona-map{
+    top:600px;
+    height:800px;
+    width:100%;
+    background-color: aqua;
+}
