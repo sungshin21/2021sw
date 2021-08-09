@@ -99,6 +99,7 @@ a{
     left: 10%;
    /* margin-left: -400px; */
     top:200px;
+    z-index: 99;
    
 }
 .land{
