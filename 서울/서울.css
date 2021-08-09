@@ -51,13 +51,21 @@ label {
   position: absolute;
   margin-right:160px;
 }
+
 /* search icon */
 #searchicon{
   position: absolute;
   margin-right:150px;
   top:17px;
 }
-
+  
+  /* 오늘의 신규 확진자 수 */
+  #covid-19-newCase{
+    margin-top: -4%;
+    margin-left: 76%;
+    margin-left: 78%;
+    font-size: 10x;
+  }
 /* grid */
 .mb-3{
 width: 100%;
