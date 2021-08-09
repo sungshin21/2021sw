@@ -96,8 +96,8 @@ a{
     position: absolute;
     height: 900px;
     width:400px;
-    left: 50%;
-    margin-left: -200px;
+    left: 10%;
+   /* margin-left: -400px; */
     top:130px;
    
 }
