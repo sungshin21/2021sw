@@ -41,17 +41,58 @@ a{
     transform: translateX(-50%);
 }
 
-/* search-box*/
-#search-box{
-    position: absolute;
-    margin-right:160px;
+/* 코로나 순위 */
+.rolling_box{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #848484;
+    margin-right: 30px;
+
 }
-/* search icon */
-#searchicon{
-    position: absolute;
-    margin-right:150px;
-    margin-top: -9px;
+
+.rolling_box ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    list-style: none;
 }
+
+.rolling_box ul li {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    position:absolute;
+    transition: top .75s;
+    top: 100%;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.card_sliding{
+    top: 0 !important;
+    z-index: 100 !important;
+} 
+
+.card_sliding_after{
+    top: -100% !important;
+    z-index: 10 !important;
+}
+
+.rolling_box ul li p {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.before_slide {
+    transform: translateY(100%);
+}
+
+.after_slide {
+    transform: translateY(0);
+}
+
 
 /* 내위치 */
 .toggle {
