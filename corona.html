@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!--코로나 시도별 정보-->
     <h1>코로나 api 가져오기</h1>
     <p></p>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
@@ -38,15 +39,42 @@
             });
     </script>
 
-<script>
-    $.ajax({
-        method: "GET",
-        url: "https://api.corona-19.kr/korea/?serviceKey=7TNc6tdHG3bajrI9VBeAoUPpgCMO8Ww2u",
-    })
-        .done(function (msg) {
-            console.log(msg);
-        });
-</script>
+    <!--코로나 전체 정보-->
+    <p></p>
+    <script>
+        $.ajax({
+            method: "GET",
+            url: "https://api.corona-19.kr/korea/?serviceKey=7TNc6tdHG3bajrI9VBeAoUPpgCMO8Ww2u",
+        })
+            .done(function (msg) {
+                console.log(msg);
+
+            $( "p" ).append( "<strong>"+ msg.city1n+"</strong>" );
+            $( "p" ).append( "<strong>"+ msg.city2n+"</strong>" );
+            $( "p" ).append( "<strong>"+ msg.city3n+"</strong>" );
+            $( "p" ).append( "<strong>"+ msg.city4n+"</strong>" );
+            $( "p" ).append( "<strong>"+ msg.city5n+"</strong>" );
+            $( "p" ).append( "<strong>"+ msg.city1p+"</strong>" );
+            $( "p" ).append( "<strong>"+ msg.city2p+"</strong>" );
+            $( "p" ).append( "<strong>"+ msg.city3p+"</strong>" );
+            $( "p" ).append( "<strong>"+ msg.city4p+"</strong>" );
+            $( "p" ).append( "<strong>"+ msg.city5p+"</strong>" );
+
+            });
+
+
+    </script>
+
+        <!--안심식당 api-->
+        <script>
+            $.ajax({
+                method: "GET",
+                url: "https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20200713000000001391&service_ty=&filter_ty=G&sort_id=regist_dt&s_data_nm=&cl_code=&instt_id=201410120001&shareYn=",
+            })
+                .done(function (msg) {
+                    console.log(msg);
+                });
+        </script>
 
 
 </body>
