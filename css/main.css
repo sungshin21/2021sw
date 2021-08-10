@@ -79,7 +79,7 @@ a{
 }
 
 .rolling_box ul li p {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 40px;
     font-weight: bold;
 }
@@ -91,6 +91,7 @@ a{
 .after_slide {
     transform: translateY(0);
 }
+
 
 
 /* 내위치 */
