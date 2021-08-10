@@ -42,6 +42,14 @@ a{
 }
 
 /* 코로나 순위 */
+#corona-top5{
+    font-size: 14px;
+    width: 50%;
+    color: rgb(255, 0, 0);
+    margin-right: -52%;
+    margin-top: 9%;
+    margin-bottom: -10%;
+}
 .rolling_box{
     width: 200px;
     height: 40px;
@@ -79,7 +87,7 @@ a{
 }
 
 .rolling_box ul li p {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 40px;
     font-weight: bold;
     text-align: center;
@@ -93,38 +101,6 @@ a{
     transform: translateY(0);
 }
 
-
-
-/* 내위치 */
-.toggle {
-    display: block;
-    font: 1rem "Do Hyeon", serif;
-}
-.switch_wrap{
-    float:left;
-    margin-top:18px;
-}
-.switch_wrap + .switch_wrap{
-    display:none;
-}
-.switch_wrap em{
-    display:inline-block;
-    margin:0 5px 0;
-    font-size:14px;
-    color:#000;
-    vertical-align: middle;
-}
-.mb-3 form-check form-switch {
-    position: relative;
-    display: inline-block;
-    width: 36px;
-    height: 21px;
-}
-.mb-3 form-check form-switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
 /* 지도 옆 코로나 실시간 업데이트 시간*/
 #corona-19-updateTime{
     margin-top: 4%;
