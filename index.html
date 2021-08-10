@@ -422,7 +422,7 @@
                   <div id="page">
                     <img onclick="None()" class="close_icon" src="/images/close.png" alt="닫기버튼">
                     <p style="font-weight: bolder; font-size: 20px;"><img src="/images/world.png" style="width: 30px;" alt="logo">&nbsp;이곳저곳은 <b style="font-size: 23px;" >'왜'</b> 제작되었나요?</p>
-                    <p style="font-weight: bold;">
+                    <p style="font-weight: 400;">
                       코로나 시대가 시작된 후로 사람들이 섣불리 외출하지 못하게 됨에 따라 간단한 국내 여행조차 제한되는 양상이 전개되고 있습니다. 
                       결과적으로 식당, 지역 관광명소 등 여행지 주변의 상업 활동이 침체되는 상황입니다. 이러한 상황을 개선하기 위해 여행지와 음식점에 대한 한눈에 들어오는 유용한 정보를 제공하여, 
                       여행자들의 합리적인 선택을 돕는 플랫폼을 통해 여행 관련 상업을 부흥시키고자 이 웹페이지 ‘이곳저곳’을 제작하기로 하였습니다.
@@ -445,6 +445,27 @@
                   <li class="" id ="second"><p></p></li>
                   <li class="" id ="third"><p></p></li>
                 </ul>
+                <script>
+                   var rollingData = [];
+                  $.ajax({
+                      method: "GET",
+                      url: "https://api.corona-19.kr/korea/?serviceKey=7TNc6tdHG3bajrI9VBeAoUPpgCMO8Ww2u",
+                      //data: { name: "John", location: "Boston" }
+                  })
+
+                      .done(function (msg) {
+                          console.log(msg);
+                          rollingData.push(  "<strong>"+ msg.city1n + "(" +msg.city1p + ")" +"</strong>" );
+                          rollingData.push( "<strong>"+ msg.city2n + "(" +msg.city1p + ")" +"</strong>" );
+                          rollingData.push(  "<strong>"+ msg.city3n + "(" +msg.city1p + ")"  +"</strong>" );
+                          rollingData.push( "<strong>"+ msg.city4n  + "(" +msg.city1p + ")" +"</strong>" );
+                          rollingData.push(  "<strong>"+ msg.city5n + "(" +msg.city1p + ")"  +"</strong>" );
+                         
+                          
+                      });
+                     
+                     
+              </script> 
               </div>
 
               <!--로그인, 회원가입-->
