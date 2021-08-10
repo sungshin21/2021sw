@@ -458,9 +458,30 @@
               <div class="rolling_box">
                 <ul id ="rolling_box">
                   <li class="card_sliding" id ="first"><p></p></li>
-                  <li class="card_sliding" id ="second"><p></p></li>
-                  <li class="card_sliding" id ="third"><p></p></li>
-                </ul>              
+                  <li class="" id ="second"><p></p></li>
+                  <li class="" id ="third"><p></p></li>
+                </ul>
+                <script>
+                   var rollingData = [];
+                  $.ajax({
+                      method: "GET",
+                      url: "https://api.corona-19.kr/korea/?serviceKey=7TNc6tdHG3bajrI9VBeAoUPpgCMO8Ww2u",
+                      //data: { name: "John", location: "Boston" }
+                  })
+
+                      .done(function (msg) {
+                          console.log(msg);
+                          rollingData.push(  "<strong>"+ msg.city1n + "(" +msg.city1p + ")" +"</strong>" );
+                          rollingData.push( "<strong>"+ msg.city2n + "(" +msg.city1p + ")" +"</strong>" );
+                          rollingData.push(  "<strong>"+ msg.city3n + "(" +msg.city1p + ")"  +"</strong>" );
+                          rollingData.push( "<strong>"+ msg.city4n  + "(" +msg.city1p + ")" +"</strong>" );
+                          rollingData.push(  "<strong>"+ msg.city5n + "(" +msg.city1p + ")"  +"</strong>" );
+                         
+                          
+                      });
+                     
+                     
+              </script> 
               </div>
               <script>
                 $.ajax({
