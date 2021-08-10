@@ -90,17 +90,16 @@
       <div class="background">
       <h2 class="home_title" >Today's PICK</h2>
       <div id="covid-19-newCase">
-        <p>오늘의 신규 확진자 수:&nbsp;</p>
+        <hn>오늘의 신규 확진자 수:&nbsp;</hn>
         <script>
           $.ajax({
               method: "GET",
               url: "https://api.corona-19.kr/korea/country/new/?serviceKey=7TNc6tdHG3bajrI9VBeAoUPpgCMO8Ww2u",
-              //data: { name: "John", location: "Boston" }
           })
               .done(function (msg) {
                   console.log(msg);
                   console.log(msg.gyeongnam);
-                  $( "p" ).append( "<strong>"+ msg.gyeongnam.newCase+"</strong>" );
+                  $( "hn" ).append( "<strong>"+ msg.gyeongnam.newCase+"</strong>" );
               });
         </script>
       </div>
