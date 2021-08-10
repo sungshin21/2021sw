@@ -379,8 +379,8 @@ footer {
 #page{
     z-index: 10;
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     background-color: #8bb6f7;
     border:1px solid #8bb6f7;  padding:10px;
     top: 60px;
