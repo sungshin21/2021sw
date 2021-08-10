@@ -368,27 +368,4 @@ footer {
 .close_icon:hover{
     opacity: 1;
 }
-/* 코로나지도 옆에 신규확진자 */
- #corona-map{
-    top:320px;
-    height:700px;
-    width:100%;
-    position: absolute;
-   
-} 
-/* 코로나 차트 */
- #coronachart{
-    top:0px;
-    height:700px;
-    width:28%;
-    left:58%;
-    position:absolute;
-    
-} 
-#coronachart table{
-    margin-top: 20px;
-    text-align: center;
-}
-#coronachart table thead{background-color: black;
-color:#fff}
 
