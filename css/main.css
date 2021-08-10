@@ -47,7 +47,7 @@ a{
     width: 50%;
     color: rgb(255, 0, 0);
     margin-right: -52%;
-    margin-top: 9%;
+    margin-top: 12%;
     margin-bottom: -10%;
 }
 .rolling_box{
@@ -87,7 +87,7 @@ a{
 }
 
 .rolling_box ul li p {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 40px;
     font-weight: bold;
     text-align: center;
