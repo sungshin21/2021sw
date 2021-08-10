@@ -136,9 +136,9 @@ a{
     position: absolute;
     height: 900px;
     width:400px;
-    left: 10%;
+    left: 13%;
    /* margin-left: -400px; */
-    top:200px;
+    top:180px;
     z-index: 99;
    
 }
@@ -399,7 +399,7 @@ footer {
 /* 코로나지도 옆에 신규확진자 */
  #corona-map{
     top:320px;
-    height:800px;
+    height:700px;
     width:100%;
     position: absolute;
    
@@ -407,9 +407,9 @@ footer {
 /* 코로나 차트 */
  #coronachart{
     top:0px;
-    height:800px;
-    width:25%;
-    left:60%;
+    height:700px;
+    width:28%;
+    left:58%;
     position:absolute;
     
 } 
