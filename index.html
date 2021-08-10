@@ -471,11 +471,11 @@
 
                       .done(function (msg) {
                           console.log(msg);
-                          rollingData.push("<strong>"+ msg.city1n + "(" +msg.city1p + ")" +  "</strong>" );
-                          rollingData.push("<strong>"+ msg.city2n + "(" +msg.city2p + ")" +"</strong>" );
-                          rollingData.push("<strong>"+ msg.city3n + "(" +msg.city3p + ")"  +"</strong>" );
-                          rollingData.push("<strong>"+ msg.city4n  + "(" +msg.city4p + ")" +"</strong>" );
-                          rollingData.push("<strong>"+ msg.city5n + "(" +msg.city5p + ")"  +"</strong>" );
+                          rollingData.push("<strong>" +"1."+ msg.city1n + "(" + msg.city1p + "%)"+ "</strong>" );
+                          rollingData.push("<strong>"+"2."+ msg.city2n + "(" + msg.city2p + "%)"+"</strong>"  );
+                          rollingData.push("<strong>"+"3."+ msg.city3n + "(" + msg.city3p + "%)"  +"</strong>" );
+                          rollingData.push("<strong>"+"4."+ msg.city4n  + "(" + msg.city4p + "%)" +"</strong>" );
+                          rollingData.push("<strong>"+ "5." + msg.city5n + "(" + msg.city5p + "%)"  +"</strong>" );
                          
                           
                       });
