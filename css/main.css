@@ -66,8 +66,8 @@ a{
     top: 100%;
     z-index: 1;
     background-color: #ffffff;
+    margin-left: -34px;
 }
-
 .card_sliding{
     top: 0 !important;
     z-index: 100 !important;
@@ -82,6 +82,7 @@ a{
     font-size: 20px;
     line-height: 40px;
     font-weight: bold;
+    text-align: center;
 }
 
 .before_slide {
