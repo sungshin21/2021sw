@@ -40,6 +40,14 @@ a{
 }
 
 /* 코로나 순위 */
+#corona-top5{
+    font-size: 14px;
+    width: 50%;
+    color: rgb(255, 0, 0);
+    margin-right: -52%;
+    margin-top: 12%;
+    margin-bottom: -10%;
+}
 .rolling_box{
     width: 200px;
     height: 40px;
