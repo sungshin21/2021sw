@@ -303,7 +303,7 @@ footer {
     background-color: #8bb6f7;
     transform: translateX(-100%);
     transition: .4s;
-    z-index: 10;
+    z-index: 999;
     font-family: 'Nanum Gothic', sans-serif;
      font-size: 18px;
     font-weight: 400;
