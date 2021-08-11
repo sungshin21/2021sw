@@ -72,6 +72,7 @@ a{
     top: 100%;
     z-index: 1;
     background-color: #ffffff;
+    margin-left: -34px;
 }
 
 .card_sliding{
@@ -85,9 +86,10 @@ a{
 }
 
 .rolling_box ul li p {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 40px;
     font-weight: bold;
+    text-align: center;
 }
 
 .before_slide {
