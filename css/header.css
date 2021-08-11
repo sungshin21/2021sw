@@ -38,7 +38,36 @@ a{
     left:50%;
     transform: translateX(-50%);
 }
-
+/* 목표, 설명 팝업창  */
+.explanation{
+    width: 36px;
+    margin-left: -58%;
+}
+.bulb_icon{
+    cursor: pointer;
+    position: absolute;
+    opacity: 0.5;
+    top: 25px;
+    width: auto;
+}
+.close_icon{
+    float: right;
+    width: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+#page{
+    z-index: 10;
+    position: absolute;
+    width: 770px;
+    height: 730px;
+    background-color: #8bb6f7;
+    border:1px solid #8bb6f7;  padding:10px;
+    top: 60px;
+    border-radius: 10px;
+    display: none;
+    box-shadow: 6px 6px 6px 6px rgb(0 0 0 / 10%),3px 3px 3px 3px rgb(0 0 0 / 10%) ;
+}
 /* 코로나 순위 */
 #corona-top5{
     font-size: 14px;
@@ -327,36 +356,7 @@ a{
     position: absolute;
     margin-left: 10px;
 }
-/* 목표, 설명 팝업창  */
-.explanation{
-    width: 36px;
-    margin-left: -58%;
-}
-.bulb_icon{
-    cursor: pointer;
-    position: absolute;
-    opacity: 0.5;
-    top: 25px;
-    width: auto;
-}
-.close_icon{
-    float: right;
-    width: 20px;
-    cursor: pointer;
-    opacity: 0.5;
-}
-#page{
-    z-index: 10;
-    position: absolute;
-    width: 750px;
-    height: 730px;
-    background-color: #8bb6f7;
-    border:1px solid #8bb6f7;  padding:10px;
-    top: 60px;
-    border-radius: 10px;
-    display: none;
-    box-shadow: 6px 6px 6px 6px rgb(0 0 0 / 10%),3px 3px 3px 3px rgb(0 0 0 / 10%) ;
-}
+
 /* 아이콘 hover 기능 */
 .bulb_icon:hover{
     background-image: url(/images/question1.png);
