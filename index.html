@@ -456,14 +456,6 @@
                     <p> * 지역별 모든 맛집과 명소들을 한눈에 확인하고 싶다면??: 메뉴바에서 해당지역을 눌러 확인해본다!!</p> -->
                   </div>
               </div>
-
-            <div class="col-4 text-center">
-              <!-- 로고 이미지 -->
-              <a class="blog-header-logo text-dark" href="./index.html"><img id="logo" src="./images/world.png" alt="logo"> 이곳저곳</a>  
-            </div>
-            
-            <!--순위/로그인/회원가입-->
-            <div class="col-4 d-flex justify-content-end align-items-center">
               <!-- 코로나 확진자 순위 -->
               <div id="corona-top5"><p>지역별 확진자의 비율 TOP5</p></div>
               <div class="rolling_box">
@@ -488,30 +480,19 @@
                           rollingData.push("<strong>"+ "5." + msg.city5n + "(" + msg.city5p + "%)"  +"</strong>" );
                          
                           
-                      });
+                      });                    
                      
-                     
-              </script> 
+                </script> 
               </div>
-              <script>
-                $.ajax({
-                    method: "GET",
-                    url: "https://api.corona-19.kr/korea/?serviceKey=7TNc6tdHG3bajrI9VBeAoUPpgCMO8Ww2u",
-                })
-                    .done(function (msg) {
-                        console.log(msg);
-                        // $( "p" ).append( "<strong>"+ msg.city1n+"</strong>" );
-                        // $( "p" ).append( "<strong>"+ msg.city2n+"</strong>" );
-                        // $( "p" ).append( "<strong>"+ msg.city3n+"</strong>" );
-                        // $( "p" ).append( "<strong>"+ msg.city4n+"</strong>" );
-                        // $( "p" ).append( "<strong>"+ msg.city5n+"</strong>" );
-                        // $( "p" ).append( "<strong>"+ msg.city1p+"</strong>" );
-                        // $( "p" ).append( "<strong>"+ msg.city2p+"</strong>" );
-                        // $( "p" ).append( "<strong>"+ msg.city3p+"</strong>" );
-                        // $( "p" ).append( "<strong>"+ msg.city4p+"</strong>" );
-                        // $( "p" ).append( "<strong>"+ msg.city5p+"</strong>" );
-                    });
-            </script>
+
+            <div class="col-4 text-center">
+              <!-- 로고 이미지 -->
+              <a class="blog-header-logo text-dark" href="./index.html"><img id="logo" src="./images/world.png" alt="logo"> 이곳저곳</a>  
+            </div>
+            
+            <!--순위/로그인/회원가입-->
+            <div class="col-4 d-flex justify-content-end align-items-center">
+              
 
 
               <!--로그인, 회원가입-->
