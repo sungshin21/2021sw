@@ -58,13 +58,13 @@ margin-right: 8%;
 width: 84%;
 }
 
-/*서울> 맛집> 목포집*/
+/*경기> 명소> 에버랜드*/
 .route{
     margin-left: 9%;
     width: 82%;
 }
 
-/*목포집 타이틀 */
+/*에버랜드 타이틀 */
 .themed-grid-col1 {
     margin-left: 9%;
     width: 82%;
@@ -82,7 +82,7 @@ width: 84%;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
 }
-/*목포집 이미지 */
+/*에버랜드 이미지 */
 .themed-grid-col2 {
     margin-left: 9%;
     width: 20%;
@@ -96,7 +96,7 @@ width: 84%;
     color: #000;
     border-radius: 20px;
 }
-/*목포집 기본정보 */
+/*에버랜드 기본정보 */
 .themed-grid-col3 {
     margin-top: -10px;
     margin-left: 30%;
@@ -175,7 +175,7 @@ font-size:18px}
     margin-right:150px;
     margin-top: -9px;
 }
-/* 서울>맛집>목포집 */
+/* 경기>명소>에버랜드 */
 .breadcrumb{
     margin-top: 20px;
     font-size: 25px;
