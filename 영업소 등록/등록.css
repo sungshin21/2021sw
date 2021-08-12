@@ -65,7 +65,7 @@ cursor: pointer;}
     background-color: #fff;
     border-radius: 10px;
     width: 60%;
-    height: 650px;
+    height: 700px;
     align-items: center; 
     position: absolute;
     text-align: left;
@@ -90,11 +90,7 @@ nav#outside__menu{
 
 /* 리뷰 안 내용 */
 /* 닉네임 설정하기 리뷰 */
-.form-name{
-    margin-top: -5.5%;
-    margin-left: 20%;
-    height: 25px;
-}
+
 .review-contentname1/* 리뷰c참여하기*/{
     margin-left: 43%;
     color: rgb(0, 17, 255);
@@ -115,6 +111,7 @@ nav#outside__menu{
     color: rgb(0, 17, 255);
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
+    float: left;
     
 }
 .review-number{
@@ -122,7 +119,10 @@ nav#outside__menu{
     word-spacing: 54px;
 
 }
-
+.form-control{
+    height: 25px;
+    width: 200px;
+}
 .btn .btn-outline-secondary{
     border-color: aliceblue;
     display: block;
