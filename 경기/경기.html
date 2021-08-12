@@ -473,7 +473,6 @@
                     method: "GET",
                     url: "https://api.corona-19.kr/korea/?serviceKey=7TNc6tdHG3bajrI9VBeAoUPpgCMO8Ww2u",
                 })
-
                     .done(function (msg) {
                         console.log(msg);
                         rollingData.push("<strong>" +"1."+ msg.city1n + "(" + msg.city1p + "%)"+ "</strong>" );
@@ -481,8 +480,6 @@
                         rollingData.push("<strong>"+"3."+ msg.city3n + "(" + msg.city3p + "%)"  +"</strong>" );
                         rollingData.push("<strong>"+"4."+ msg.city4n  + "(" + msg.city4p + "%)" +"</strong>" );
                         rollingData.push("<strong>"+ "5." + msg.city5n + "(" + msg.city5p + "%)"  +"</strong>" );
-                       
-                        
                     });                                     
               </script> 
             </div>

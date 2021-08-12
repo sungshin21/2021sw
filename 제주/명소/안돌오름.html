@@ -446,14 +446,6 @@
                     <p><b>*</b> <b>어디를 여행갈지 모르겠다면??:</b> 첫 페이지 아래에 있는 이곳저곳이 추천하는 국내 여행지를 확인해본다.
                     <br><b>*</b> <b>지역별 모든 맛집과 명소들을 한눈에 확인하고 싶다면??:</b> 메뉴바에서 해당지역을 눌러 확인해본다!!</p>
                     </p>
-                  
-                  
-                  <!-- <p>* 지도를 눌러 원하는 지역의 맛집과 명소들을 알아본다.</p>
-                  <p>* 실시간으로 업로드되는 지역별 확진자 수를 확인하고, 코로나 확진자 수를 유의하여 방문을 고려한다.</p>
-                  <p>* 여행지를 다녀온 후, 회원가입&로그인을 하여 방문지에 대한 리뷰를 남긴다.</p>
-                  <p>* 로그인 옆에 확진자가 높은 TOP5 순위를 확인하여, 확진자 수가 높은 지역을 피하는데 도움을 얻는다.</p>
-                  <p>* 어디를 여행갈지 모르겠다면??: 첫 페이지 아래에 있는 이곳저곳이 추천하는 국내 여행지를 확인해본다.</p>
-                  <p> * 지역별 모든 맛집과 명소들을 한눈에 확인하고 싶다면??: 메뉴바에서 해당지역을 눌러 확인해본다!!</p> -->
                 </div>
             </div>
 
@@ -464,7 +456,7 @@
           </div>
           <!--순위/로그인/회원가입-->
           <div class="col-4 d-flex justify-content-end align-items-center">
-               <!-- 코로나 확진자 순위 -->
+            <!-- 코로나 확진자 순위 -->
             <div id="corona-top5"><p>지역별 확진자의 비율 TOP5</p></div>
             <div class="rolling_box">
               <ul id ="rolling_box">
@@ -477,9 +469,7 @@
                 $.ajax({
                     method: "GET",
                     url: "https://api.corona-19.kr/korea/?serviceKey=7TNc6tdHG3bajrI9VBeAoUPpgCMO8Ww2u",
-                    //data: { name: "John", location: "Boston" }
                 })
-
                     .done(function (msg) {
                         console.log(msg);
                         rollingData.push("<strong>" +"1."+ msg.city1n + "(" + msg.city1p + "%)"+ "</strong>" );
@@ -487,34 +477,9 @@
                         rollingData.push("<strong>"+"3."+ msg.city3n + "(" + msg.city3p + "%)"  +"</strong>" );
                         rollingData.push("<strong>"+"4."+ msg.city4n  + "(" + msg.city4p + "%)" +"</strong>" );
                         rollingData.push("<strong>"+ "5." + msg.city5n + "(" + msg.city5p + "%)"  +"</strong>" );
-                       
-                        
-                    });
-                   
-                   
-            </script> 
+                    });                                      
+              </script> 
             </div>
-            <script>
-              $.ajax({
-                  method: "GET",
-                  url: "https://api.corona-19.kr/korea/?serviceKey=7TNc6tdHG3bajrI9VBeAoUPpgCMO8Ww2u",
-                  //data: { name: "John", location: "Boston" }
-              })
-                  .done(function (msg) {
-                      console.log(msg);
-                      // $( "p" ).append( "<strong>"+ msg.city1n+"</strong>" );
-                      // $( "p" ).append( "<strong>"+ msg.city2n+"</strong>" );
-                      // $( "p" ).append( "<strong>"+ msg.city3n+"</strong>" );
-                      // $( "p" ).append( "<strong>"+ msg.city4n+"</strong>" );
-                      // $( "p" ).append( "<strong>"+ msg.city5n+"</strong>" );
-                      // $( "p" ).append( "<strong>"+ msg.city1p+"</strong>" );
-                      // $( "p" ).append( "<strong>"+ msg.city2p+"</strong>" );
-                      // $( "p" ).append( "<strong>"+ msg.city3p+"</strong>" );
-                      // $( "p" ).append( "<strong>"+ msg.city4p+"</strong>" );
-                      // $( "p" ).append( "<strong>"+ msg.city5p+"</strong>" );
-                  });
-          </script>
-
 
             <!--로그인, 회원가입-->
             <a class="btn btn-sm btn-outline-secondary" href="/로그인, 회원가입/로그인.html">로그인</a>
@@ -524,6 +489,7 @@
         </div>
        
       </header>
+      <hr>
         <main>
             <div class="route">
                 <nav aria-label="breadcrumb">
