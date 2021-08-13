@@ -1,3 +1,23 @@
+/* 로고 및 기본 설정 */
+#logo{
+    width:50px;
+    height: 50px;
+}
+
+a{text-decoration: none;
+z-index: 5;}
+
+.nav-scroller a:hover{text-decoration: underline;
+color:#000;
+font-size:18px}
+
+.text-center{
+    font-family: "Do Hyeon", serif;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
 /*container */
 .container{
 position: flex;
@@ -112,6 +132,7 @@ width: 84%;
     padding-top: 3px;
 }
 
+
 /* 리뷰 */
 /* 리뷰 참여하기 누르는 박스*/
 #review-item{
@@ -154,6 +175,7 @@ width: 84%;
 /*리뷰 안 공감 버튼*/
 .material-icons-outlined{
     margin-left: 97%;
+
 }
 
 /* 리뷰 속 별점 */
