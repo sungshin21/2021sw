@@ -58,13 +58,13 @@ margin-right: 8%;
 width: 84%;
 }
 
-/*충북> 맛집> 아키아키*/
+/*지역> 맛집> 맛집이름*/
 .route{
     margin-left: 9%;
     width: 82%;
 }
 
-/*아키아키 타이틀 */
+/*맛집 타이틀 */
 .themed-grid-col1 {
     margin-left: 9%;
     width: 82%;
@@ -82,7 +82,7 @@ width: 84%;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
 }
-/*아키아키 이미지 */
+/*맛집 이미지 */
 .themed-grid-col2 {
     margin-left: 9%;
     width: 20%;
@@ -96,7 +96,7 @@ width: 84%;
     color: #000;
     border-radius: 20px;
 }
-/*아키아키 기본정보 */
+/*맛집 기본정보 */
 .themed-grid-col3 {
     margin-left: 30%;
     width: 61%;
