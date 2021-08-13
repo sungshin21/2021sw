@@ -147,9 +147,18 @@ width: 84%;
     margin-top: -40px;
     margin-left: calc(50px + 7%);
 }
+/* 여는 아이콘 */
+#btn--open {
+    top: 40px;
+    display: block;
+    position: relative;
+    margin-right: 100px; 
+    float: right;   
+}
+
 /* 리뷰 */
 .col{
-    width: 83%;
+    width: 84%;
     margin-left: 8.5%;
     margin-top: 5%;
     margin-bottom: -20px;
@@ -175,7 +184,6 @@ width: 84%;
 /*리뷰 안 공감 버튼*/
 .material-icons-outlined{
     margin-left: 97%;
-
 }
 
 /* 리뷰 속 별점 */
