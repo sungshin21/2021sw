@@ -62,9 +62,6 @@ function computeDistance(startCoords, destCoords) {
     return distance;
 }
 
-function degreesToRadians(degrees) {
-    radians = (degrees * Math.PI)/180;
-    return radians;
-}
+
 
  

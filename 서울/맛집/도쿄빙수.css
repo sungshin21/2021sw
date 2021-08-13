@@ -18,25 +18,6 @@ font-size:18px}
     
 }
 
-/* 메뉴바 */
-.sidebar{
-    width: 35px;
-    height: 35px;
-    fill: currentColor;
-    cursor: pointer;
-}
-.sidebar .menubar{
-    width: 35px;
-    height: 35px;
-    fill: currentColor;
-    cursor: pointer;
-}
-.text-center{
-    position:absolute;
-    left:50%;
-    transform: translateX(-50%);
-}
-
 /*container */
 .container{
 position: flex;
@@ -45,7 +26,7 @@ margin-right: 8%;
 width: 84%;
 }
 
-/*서울> 맛집> 도쿄빙수*/
+/*지역> 맛집> 맛집이름*/
 .route{
     margin-left: 9%;
     width: 82%;

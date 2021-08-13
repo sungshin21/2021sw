@@ -66,18 +66,6 @@ function degreesToRadians(degrees) {
     radians = (degrees * Math.PI)/180;
     return radians;
 }
-// // 제출하기 버튼 누르면 팝업창 닫음
-// const submitEl = document.getElementById('submit')
 
-// submitEl.addEventListener("click", function() {
-//     // 햄버거 바 아이콘을 보이게 처리,
-//     menuOpenEl.style.display = 'block'
-//     // 닫는 아이콘은 보이지 않게 처리
-//     menuCloseEl.style.display = 'none'
-//     // 사이드 메뉴를 원상태로 숨깁니다
-//     sideMenuEl.style.display = 'none'
-//     //outside_menu 숨기기
-//     outsideMenuEl.style.display='none'
-// })
 
  
