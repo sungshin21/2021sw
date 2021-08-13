@@ -23,41 +23,6 @@ font-size:18px}
 align-items: center;
 }
 
-/* 메뉴바 */
-.sidebar{
-  width: 35px;
-  height: 35px;
-  fill: currentColor;
-  cursor: pointer;
-}
-.sidebar .menubar{
-  width: 35px;
-  height: 35px;
-  fill: currentColor;
-  cursor: pointer;
-}
-.text-center{
-  position:absolute;
-  left:50%;
-  transform: translateX(-50%);
-}
-/* search-box*/
-label {
-  display: block;
-  font: 1rem 'Fira Sans', sans-serif;
-  margin: .4rem 0;
-}
-#search-box{
-  position: absolute;
-  margin-right:160px;
-}
-/* search icon */
-#searchicon{
-  position: absolute;
-  margin-right:150px;
-  top:17px;
-}
-
 /* grid */
 .mb-3{
 width: 100%;
@@ -186,7 +151,3 @@ footer{
   opacity:0;
   transition: 0.4s;
 }
-.themed-grid-col1:nth-child(2){
-  background-color: #0d6efd;
-  color: #fff;
- }
