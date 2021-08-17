@@ -435,12 +435,6 @@ previous210El.addEventListener("click", function(){
 })
 
 
-
-
-
-
-
-
    // 설명창 js
 
    function Block(){
@@ -455,21 +449,6 @@ function None(){
 
 // 코로나 확진자 순위
 
-// let rollingData = [
-//     '1',
-//     '2',
-//     '3',
-//     '4',
-//     '5',
-//     '6',
-//     '7',
-//     '8',
-//     '9',
-//     '10',
-//     '11',
-//     '12'
-//   ]    // 롤링할 데이터를 넣으면 됩니다 갯수 제한 없어요
-
 let timer = 2000 // 롤링되는 주기 입니다 (1000 => 1초)
 
 let first = document.getElementById('first'),
@@ -478,9 +457,7 @@ third = document.getElementById('third')
 let move = 2
 let dataCnt = 1
 let listCnt = 1
-
-//위 선언은 따로 완전히 수정하지 않는 한 조정할 필요는 없습니다.
-
+//
 first.children[0].innerHTML = rollingData[0]
 
 setInterval(() => {
